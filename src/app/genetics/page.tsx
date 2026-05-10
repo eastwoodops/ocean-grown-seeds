@@ -10,7 +10,7 @@ export default function Genetics() {
   return (
     <main className="min-h-screen bg-background relative overflow-hidden pb-24">
       {/* HEADER */}
-      <header className="absolute top-0 w-full z-50 px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-center border-b border-lab-border bg-white/80 backdrop-blur-md gap-4 md:gap-0">
+      <header className="sticky top-0 w-full z-50 px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-center border-b border-lab-border bg-white/80 backdrop-blur-md gap-4 md:gap-0">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo-black.png" alt="Ocean Grown Seeds Seal" width={40} height={40} className="opacity-90" priority />
           <span className="font-bold tracking-tight text-xl text-foreground">OCEAN GROWN</span>
@@ -21,21 +21,19 @@ export default function Genetics() {
           <Link href="/genetics" className="hover:text-primary transition-colors pb-1">ARCHIVE</Link>
         </nav>
         <div>
-          <Link href="/genetics" className="flex items-center gap-2 text-xs font-mono bg-lab-bg border border-lab-border text-foreground px-4 py-2 rounded uppercase tracking-widest hover:bg-lab-border transition-all shadow-sm">
-            Login <ArrowRight size={14} />
-          </Link>
+          
         </div>
       </header>
 
       {/* SUB-HEADER / SEARCH */}
-      <section className="pt-32 pb-8 px-8 border-b border-lab-border bg-topo">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end gap-6">
+      <section className="pt-8 pb-8 px-4 md:px-8 border-b border-lab-border bg-topo">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}>
             <div className="flex items-center gap-2 text-accent-dark mb-2">
               <Database size={16} />
               <span className="font-mono text-xs uppercase tracking-widest">Database Access</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-foreground">Genetic Archive.</h1>
+            <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight text-foreground mt-2">Genetic Archive.</h1>
           </motion.div>
           
           <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="flex flex-col gap-4 w-full md:w-auto">
@@ -44,14 +42,14 @@ export default function Genetics() {
               <input 
                 type="text" 
                 placeholder="Query specimen by ID, Lineage, or Name..." 
-                className="w-full md:w-96 bg-white border border-lab-border text-sm pl-10 pr-4 py-3 rounded-md focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all font-mono placeholder:font-sans shadow-sm"
+                className="w-full w-full md:w-96 bg-white border border-lab-border text-sm pl-10 pr-4 py-3 rounded-md focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all font-mono placeholder:font-sans shadow-sm"
               />
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 mt-4 md:mt-0">
               <button className="flex items-center gap-2 text-xs font-medium border border-lab-border px-3 py-1.5 rounded bg-white hover:bg-lab-bg shadow-sm">
                 <Filter size={14} /> Filter Specs
               </button>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 {['Indica', 'Sativa', 'Hybrid'].map(t => (
                   <button key={t} className="text-[10px] font-mono uppercase px-2 py-1 rounded bg-lab-bg text-lab-text border border-lab-border hover:text-primary hover:border-primary transition-colors shadow-sm">
                     {t}
@@ -64,7 +62,7 @@ export default function Genetics() {
       </section>
 
       {/* STRAIN GRID */}
-      <section className="py-12 px-8 max-w-7xl mx-auto min-h-screen">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto min-h-screen">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {STRAIN_DB.map((strain, i) => (
             <Link key={strain.id} href={`/genetics/${strain.slug}`}>

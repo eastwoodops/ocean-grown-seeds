@@ -12,7 +12,7 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
   return (
     <main className="min-h-screen bg-background relative overflow-hidden pb-24">
       {/* HEADER */}
-      <header className="absolute top-0 w-full z-50 px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-center border-b border-lab-border bg-white/80 backdrop-blur-md gap-4 md:gap-0">
+      <header className="sticky top-0 w-full z-50 px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-center border-b border-lab-border bg-white/80 backdrop-blur-md gap-4 md:gap-0">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo-black.png" alt="Ocean Grown Seeds Seal" width={40} height={40} className="opacity-90" priority />
           <span className="font-bold tracking-tight text-xl text-foreground">OCEAN GROWN</span>
@@ -23,9 +23,7 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
           <Link href="/genetics" className="hover:text-primary transition-colors pb-1">ARCHIVE</Link>
         </nav>
         <div>
-          <Link href="/genetics" className="flex items-center gap-2 text-xs font-mono bg-lab-bg border border-lab-border text-foreground px-4 py-2 rounded uppercase tracking-widest hover:bg-lab-border transition-all shadow-sm">
-            Login <ArrowRight size={14} />
-          </Link>
+          
         </div>
       </header>
 
@@ -33,14 +31,14 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
       <div className="absolute inset-0 bg-topo opacity-30 z-0 pointer-events-none" />
 
       {/* BREADCRUMBS & NAV */}
-      <div className="pt-32 px-8 max-w-7xl mx-auto relative z-10">
+      <div className="pt-8 px-4 md:px-8 max-w-7xl mx-auto relative z-10">
         <Link href="/genetics" className="inline-flex items-center gap-2 text-xs font-mono text-lab-text hover:text-primary transition-colors mb-8">
           <ArrowLeft size={14} /> BACK TO DATABASE
         </Link>
       </div>
 
       {/* MAIN SPECIMEN LAYOUT */}
-      <div className="px-8 max-w-7xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12">
+      <div className="px-4 md:px-8 max-w-7xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12">
         
         {/* LEFT COLUMN: VISUALS */}
         <motion.div 

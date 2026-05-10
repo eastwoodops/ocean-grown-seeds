@@ -25,9 +25,7 @@ export default function Home() {
           <Link href="/genetics" className="hover:text-primary transition-colors">ARCHIVE</Link>
         </nav>
         <div>
-          <Link href="/genetics" className="flex items-center gap-2 text-xs font-mono bg-foreground text-background px-4 py-2 rounded uppercase tracking-widest hover:bg-primary transition-all">
-            Access Database <ArrowRight size={14} />
-          </Link>
+          
         </div>
       </header>
 
