@@ -9,9 +9,9 @@ export default function Home() {
     <main className="min-h-screen bg-topo relative overflow-hidden">
       {/* HEADER */}
       <header className="absolute top-0 w-full z-50 px-8 py-6 flex justify-between items-center border-b border-lab-border bg-white/50 backdrop-blur-md">
-        <div className="flex items-center gap-2">
-          <Droplet className="text-primary" size={24} />
-          <span className="font-bold tracking-tight text-lg text-primary">OCEAN GROWN</span>
+        <div className="flex items-center gap-3">
+          <Image src="/logo-black.png" alt="Ocean Grown Seeds Seal" width={40} height={40} className="opacity-90" priority />
+          <span className="font-bold tracking-tight text-xl text-foreground">OCEAN GROWN</span>
         </div>
         <nav className="flex gap-8 text-sm font-medium text-lab-text">
           <a href="#" className="hover:text-primary transition-colors">GENETICS</a>
@@ -80,12 +80,20 @@ export default function Home() {
               <Activity className="text-accent" size={20} />
             </div>
 
-            {/* Placeholder for the premium macro photography */}
-            <div className="relative flex-1 flex items-center justify-center z-10">
-              <div className="w-64 h-64 rounded-full bg-gradient-to-tr from-primary/10 to-accent/10 border border-white shadow-inner flex items-center justify-center backdrop-blur-md">
-                 <Leaf className="text-primary/40" size={64} />
-              </div>
+            {/* Premium Macro Video Photography */}
+            <div className="absolute inset-0 z-0 opacity-80 mix-blend-normal">
+              <video 
+                autoPlay 
+                loop 
+                muted 
+                playsInline 
+                className="w-full h-full object-cover"
+              >
+                <source src="/hero-video.mp4" type="video/mp4" />
+              </video>
+              <div className="absolute inset-0 bg-gradient-to-t from-lab-bg via-transparent to-lab-bg/50 mix-blend-hard-light" />
             </div>
+            <div className="relative flex-1 flex items-center justify-center z-10"></div>
 
             <div className="relative grid grid-cols-3 gap-4 border-t border-lab-border pt-6">
               <div className="flex flex-col">

@@ -16,6 +16,9 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
   title: "Ocean Grown Seeds | Premium Genetics Lab",
   description: "Highly Hybridized Cannabis Genetics. Artisan crafted for optimal results.",
+  icons: {
+    icon: "/favicon.png",
+  }
 };
 
 export default function RootLayout({
