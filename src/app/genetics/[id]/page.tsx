@@ -78,6 +78,54 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
               ))}
             </div>
           )}
+        </motion.div>
+
+        {/* RIGHT COLUMN: LAB DATA */}
+        <motion.div 
+          initial={{ opacity: 0, x: 20 }} 
+          animate={{ opacity: 1, x: 0 }} 
+          className="lg:col-span-7 flex flex-col"
+        >
+          {/* Specimen Header */}
+          <div className="mb-8 border-b border-lab-border pb-8">
+            <div className="flex items-center gap-3 mb-2">
+              <span className="font-mono text-xs text-lab-text uppercase tracking-widest bg-lab-bg border border-lab-border px-2 py-0.5 rounded">ID: {strain.id}</span>
+              <span className={`font-mono text-[10px] uppercase tracking-widest px-2 py-0.5 rounded border ${strain.status === 'Active' ? 'bg-accent/10 border-accent/20 text-accent-dark' : 'bg-lab-bg border-lab-border text-lab-text'}`}>
+                Status: {strain.status}
+              </span>
+            </div>
+            <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight text-foreground mb-4">{strain.name}</h1>
+            <p className="text-lg text-lab-text leading-relaxed">{strain.description}</p>
+          </div>
+
+          {/* Genetic Lineage Visualizer */}
+          <div className="mb-10">
+            <h3 className="font-mono text-xs uppercase tracking-widest text-lab-text mb-4 flex items-center gap-2">
+              <Dna size={16} /> Hybridization Lineage
+            </h3>
+            <div className="bg-lab-bg border border-lab-border rounded-xl p-6 relative overflow-hidden">
+               <div className="absolute right-0 top-0 opacity-5">
+                 <Dna size={120} />
+               </div>
+               <div className="flex items-center justify-between relative z-10">
+                 {/* Mother */}
+                 <div className="flex-1 text-center">
+                    <div className="font-mono text-[10px] uppercase text-lab-text mb-2 text-rose-500">Seed Donor (♀)</div>
+                    <div className="font-bold text-lg bg-white border border-lab-border py-3 px-4 rounded shadow-sm">{strain.mother}</div>
+                 </div>
+                 {/* Cross */}
+                 <div className="px-6 flex flex-col items-center justify-center text-lab-text">
+                    <span className="font-mono text-xl font-light">X</span>
+                    <div className="w-full h-px bg-lab-border mt-2" />
+                 </div>
+                 {/* Father */}
+                 <div className="flex-1 text-center">
+                    <div className="font-mono text-[10px] uppercase text-lab-text mb-2 text-blue-500">Pollen Donor (♂)</div>
+                    <div className="font-bold text-lg bg-white border border-lab-border py-3 px-4 rounded shadow-sm">{strain.father}</div>
+                 </div>
+               </div>
+            </div>
+          </div>
 
           {/* Lab Metrics Grid */}
           <h3 className="font-mono text-xs uppercase tracking-widest text-lab-text mb-4 flex items-center gap-2">
