@@ -4,10 +4,13 @@ import { motion } from "framer-motion";
 import { ArrowLeft, ArrowRight, Beaker, Activity, ShieldCheck, Dna, Leaf, Droplet, Sprout } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { STRAIN_DB } from "@/lib/strains";
 
 export default function StrainDetail({ params }: { params: { id: string } }) {
   const strain = STRAIN_DB.find(s => s.slug === params.id) || STRAIN_DB[0];
+  const [activeImage, setActiveImage] = useState<string | null>(null);
+  const displayImage = activeImage || strain.image;
 
   return (
     <main className="min-h-screen bg-background relative overflow-hidden pb-24">
@@ -54,7 +57,7 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
                </div>
             </div>
             <Image 
-              src={strain.image} 
+              src={displayImage} 
               alt={strain.name}
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -72,7 +75,7 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
           {strain.images && strain.images.length > 1 && (
             <div className="grid grid-cols-3 gap-4">
               {strain.images.slice(0, 3).map((imgStr: string, i: number) => (
-                <div key={i} className="relative aspect-square bg-lab-bg border border-lab-border rounded-lg overflow-hidden cursor-pointer hover:border-primary transition-colors opacity-70 hover:opacity-100">
+                <div key={i} onClick={() => setActiveImage(imgStr)} className={`relative aspect-square bg-lab-bg border rounded-lg overflow-hidden cursor-pointer transition-colors ${activeImage === imgStr ? "border-primary opacity-100 ring-2 ring-primary/20" : "border-lab-border opacity-70 hover:opacity-100 hover:border-primary"}`}>
                    <Image src={imgStr} alt="Thumbnail" fill className="object-cover grayscale hover:grayscale-0 transition-all duration-500" />
                 </div>
               ))}
