@@ -12,20 +12,20 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
   return (
     <main className="min-h-screen bg-background relative overflow-hidden pb-24">
       {/* HEADER */}
-      <header className="absolute top-0 w-full z-50 px-8 py-6 flex justify-between items-center border-b border-lab-border bg-white/80 backdrop-blur-md">
+      <header className="absolute top-0 w-full z-50 px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-center border-b border-lab-border bg-white/80 backdrop-blur-md gap-4 md:gap-0">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo-black.png" alt="Ocean Grown Seeds Seal" width={40} height={40} className="opacity-90" priority />
           <span className="font-bold tracking-tight text-xl text-foreground">OCEAN GROWN</span>
         </Link>
-        <nav className="flex gap-8 text-sm font-medium text-lab-text">
+        <nav className="flex flex-wrap justify-center gap-4 md:gap-8 text-sm font-medium text-lab-text">
           <Link href="/genetics" className="text-primary border-b-2 border-primary pb-1">GENETICS</Link>
-          <a href="#" className="hover:text-primary transition-colors pb-1">RESEARCH</a>
-          <a href="#" className="hover:text-primary transition-colors pb-1">ARCHIVE</a>
+          <Link href="/genetics" className="hover:text-primary transition-colors pb-1">RESEARCH</Link>
+          <Link href="/genetics" className="hover:text-primary transition-colors pb-1">ARCHIVE</Link>
         </nav>
         <div>
-          <button className="flex items-center gap-2 text-xs font-mono bg-lab-bg border border-lab-border text-foreground px-4 py-2 rounded uppercase tracking-widest hover:bg-lab-border transition-all shadow-sm">
+          <Link href="/genetics" className="flex items-center gap-2 text-xs font-mono bg-lab-bg border border-lab-border text-foreground px-4 py-2 rounded uppercase tracking-widest hover:bg-lab-border transition-all shadow-sm">
             Login <ArrowRight size={14} />
-          </button>
+          </Link>
         </div>
       </header>
 
@@ -131,7 +131,7 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
           <h3 className="font-mono text-xs uppercase tracking-widest text-lab-text mb-4 flex items-center gap-2">
             <Activity size={16} /> Verified Lab Metrics
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-10">
             <div className="bg-white border border-lab-border p-4 rounded-lg shadow-sm">
               <div className="font-mono text-[10px] uppercase text-lab-text mb-1 flex items-center gap-1"><Sprout size={12}/> Type</div>
               <div className="font-bold text-sm">{strain.type}</div>
