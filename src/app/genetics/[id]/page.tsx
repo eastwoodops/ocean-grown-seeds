@@ -187,8 +187,4 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
     </main>
   );
 }
-export async function generateStaticParams() {
-  return STRAIN_DB.map((strain) => ({
-    id: strain.slug,
-  }));
-}
+
