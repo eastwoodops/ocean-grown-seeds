@@ -25,11 +25,11 @@ export default function Article() {
         </Link>
         
         <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6 text-foreground">Clinical Efficacy of β-Myrcene</h1>
-        <p className="text-xl text-lab-text mb-12 leading-relaxed">Evaluating the analgesic, anti-inflammatory, and sedative pathways of the cannabis plant's most prevalent monoterpene.</p>
+        <p className="text-xl text-lab-text mb-12 leading-relaxed">Evaluating the analgesic, anti-inflammatory, and sedative pathways of the cannabis plant&apos;s most prevalent monoterpene.</p>
         
         <div className="prose prose-lg max-w-none text-foreground/80 mb-16 space-y-6">
           <p>β-Myrcene is a prominent monoterpene commonly found in hops, lemongrass, mangoes, and a significant portion of modern cannabis cultivars. In clinical evaluations, myrcene has demonstrated potent pharmacological pathways, specifically concerning analgesia and sedation.</p>
-     <p>According to research highlighted in the <em>Frontiers in Nutrition</em> (Surendran et al., 2021), myrcene functions as a potent anti-inflammatory and catabolic agent, suggesting significant therapeutic potential in the management of osteoarthritis and systemic inflammation. Furthermore, Dr. Ethan Russo's landmark 2011 study on the "entourage effect" indicated that myrcene reduces resistance across the blood-brain barrier, thereby accelerating the onset of other cannabinoids like THC and heavily promoting the "couch-lock" sedative effect associated with broad-leaf (Indica) phenotypes.</p>
+     <p>According to research highlighted in the <em>Frontiers in Nutrition</em> (Surendran et al., 2021), myrcene functions as a potent anti-inflammatory and catabolic agent, suggesting significant therapeutic potential in the management of osteoarthritis and systemic inflammation. Furthermore, Dr. Ethan Russo&apos;s landmark 2011 study on the &quot;entourage effect&quot; indicated that myrcene reduces resistance across the blood-brain barrier, thereby accelerating the onset of other cannabinoids like THC and heavily promoting the &quot;couch-lock&quot; sedative effect associated with broad-leaf (Indica) phenotypes.</p>
      <p>Our hybridization protocols selectively breed for myrcene dominance in cultivars targeted at insomnia, chronic pain, and acute stress relief.</p>
         </div>
         
