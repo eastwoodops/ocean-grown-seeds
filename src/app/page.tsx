@@ -20,7 +20,7 @@ export default function Home() {
         </Link>
         <nav className="flex flex-wrap justify-center gap-4 md:gap-8 text-sm font-medium text-lab-text">
           <Link href="/genetics" className="hover:text-primary transition-colors">GENETICS</Link>
-          <Link href="/genetics" className="hover:text-primary transition-colors">RESEARCH</Link>
+          <Link href="/research" className="hover:text-primary transition-colors pb-1">RESEARCH</Link>
           <Link href="/genetics" className="hover:text-primary transition-colors">ARCHIVE</Link>
         </nav>
         <div className="hidden md:block w-24"></div>
