@@ -39,7 +39,7 @@ export default function Footer() {
           <ul className="flex flex-col gap-4 text-sm text-lab-bg/70">
             <li><Link href="/genetics" className="hover:text-primary transition-colors">Genetics Catalog</Link></li>
             <li><Link href="/research" className="hover:text-primary transition-colors">Clinical Research</Link></li>
-            <li><Link href="/genetics" className="hover:text-primary transition-colors">Strain Archive</Link></li>
+            <li><Link href="/archive" className="hover:text-primary transition-colors">Strain Archive</Link></li>
           </ul>
         </div>
 
