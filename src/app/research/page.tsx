@@ -10,35 +10,37 @@ export default function ResearchIndex() {
   const [activeFilter, setActiveFilter] = useState("");
 
   const articles = [
-    { title: "Clinical Efficacy of β-Myrcene", slug: "clinical-efficacy-myrcene", desc: "Sedative, analgesic, and anti-inflammatory pathways evaluated in clinical literature.", category: "Compounds" },
-    { title: "β-Caryophyllene: The Dietary Cannabinoid", slug: "caryophyllene-dietary-cannabinoid", desc: "Examining CB2 receptor agonism and systemic anti-inflammatory responses.", category: "Compounds" },
-    { title: "D-Limonene: Anxiolytic Properties", slug: "limonene-anxiolytic-properties", desc: "Research highlighting the stress-relieving and mood-elevating mechanisms of Limonene.", category: "Compounds" },
-    { title: "Epigenetics: Environmental Influence on Phenotypic Expression", slug: "epigenetics-cannabis-phenotypes", desc: "How temperature, lighting, and stress alter gene expression without changing the underlying DNA sequence.", category: "Genetics" },
-    { title: "Mendelian Genetics: Unlocking Recessive Traits", slug: "mendelian-genetics-recessive-traits", desc: "Understanding Punnett squares, homozygous alleles, and the isolation of hidden genetic markers in F2 generations.", category: "Genetics" },
-    { title: "Hydroponics vs. Living Soil: Terpene Biosynthesis", slug: "hydroponics-living-soil-terpene-biosynthesis", desc: "Analyzing the differing organoleptic expressions and biosynthetic pathways between inert substrates and organic webs.", category: "Cultivation" },
-    { title: "Light Deprivation: Manipulating Photoperiods", slug: "light-deprivation-photoperiod-manipulation", desc: "The pros, cons, and physiological impacts of artificially inducing flowering cycles in greenhouse environments.", category: "Cultivation" },
-    { title: "Polyploidy in Cannabis: Triploids and Yield", slug: "polyploidy-cannabis-triploids", desc: "Exploring the induction of multiple chromosome sets to increase biomass, resin production, and genetic stability.", category: "Genetics" },
-    { title: "The Entourage Effect: Synergistic Mechanisms", slug: "entourage-effect-synergistic-mechanisms", desc: "Re-evaluating how cannabinoids and terpenoids interact to modulate the endocannabinoid system.", category: "Compounds" },
-    { title: "Hermaphroditism: Stress-Induced Sex Reversal", slug: "hermaphroditism-stress-induced-reversal", desc: "Understanding the biological triggers of monoecious traits and evaluating the stability of feminized genetics.", category: "Genetics" },
-    { title: "Landrace Preservation & Genetic Drift", slug: "landrace-preservation-genetic-drift", desc: "The critical importance of conserving indigenous, unhybridized cultivars for agricultural biodiversity.", category: "Genetics" },
-    { title: "Autoflowering Genetics: Cannabis Ruderalis", slug: "autoflowering-genetics-ruderalis", desc: "The evolutionary adaptation of day-neutral traits and their integration into modern high-THC hybrids.", category: "Genetics" },
-    { title: "Tissue Culture: Micropropagation & Pathogen Elimination", slug: "tissue-culture-micropropagation-pathogens", desc: "Securing elite genetics in sterile environments to eradicate viroids and maintain perpetual vigor.", category: "Genetics" },
-    { title: "Canopy Management: Crop Steering and Yield Maximization", slug: "canopy-management-yield-maximization", desc: "Techniques for manipulating apical dominance to increase total biomass and floral density.", category: "Cultivation" },
-    { title: "Abiotic Stress Elicitation: Maximizing Cannabinoid Synthesis", slug: "abiotic-stress-maximizing-thc", desc: "How calculated environmental stressors trigger defensive THC and terpene production.", category: "Cultivation" },
-    { title: "The Rhizosphere: Mycorrhizal Networks and Microorganisms", slug: "rhizosphere-microbial-inoculants", desc: "Leveraging plant growth-promoting rhizobacteria (PGPR) and fungi for nutrient bioavailability.", category: "Cultivation" },
-    { title: "Beyond THC: The Therapeutic Potential of Minor Cannabinoids", slug: "minor-cannabinoids-cbg-cbn-thcv", desc: "Analyzing the biosynthetic pathways and physiological effects of CBG, CBN, and THCV.", category: "Compounds" },
-    { title: "Post-Harvest Physiology: Curing and Volatile Compound Preservation", slug: "post-harvest-curing-terpene-preservation", desc: "The science of moisture migration, chlorophyll degradation, and preventing monoterpene volatilization.", category: "Harvesting" }
+    { title: "Clinical Efficacy of β-Myrcene", slug: "clinical-efficacy-myrcene", desc: "Sedative, analgesic, and anti-inflammatory pathways evaluated in clinical literature.", tags: ["Terpenes", "Compounds", "Pain Management"] },
+    { title: "β-Caryophyllene: The Dietary Cannabinoid", slug: "caryophyllene-dietary-cannabinoid", desc: "Examining CB2 receptor agonism and systemic anti-inflammatory responses.", tags: ["Terpenes", "Compounds", "Anti-inflammatory"] },
+    { title: "D-Limonene: Anxiolytic Properties", slug: "limonene-anxiolytic-properties", desc: "Research highlighting the stress-relieving and mood-elevating mechanisms of Limonene.", tags: ["Terpenes", "Compounds", "Mental Health"] },
+    { title: "Epigenetics: Environmental Influence on Phenotypic Expression", slug: "epigenetics-cannabis-phenotypes", desc: "How temperature, lighting, and stress alter gene expression without changing the underlying DNA sequence.", tags: ["Genetics", "Breeding", "Plant Science"] },
+    { title: "Mendelian Genetics: Unlocking Recessive Traits", slug: "mendelian-genetics-recessive-traits", desc: "Understanding Punnett squares, homozygous alleles, and the isolation of hidden genetic markers in F2 generations.", tags: ["Genetics", "Breeding"] },
+    { title: "Hydroponics vs. Living Soil: Terpene Biosynthesis", slug: "hydroponics-living-soil-terpene-biosynthesis", desc: "Analyzing the differing organoleptic expressions and biosynthetic pathways between inert substrates and organic webs.", tags: ["Cultivation", "Organic Farming", "Terpenes"] },
+    { title: "Light Deprivation: Manipulating Photoperiods", slug: "light-deprivation-photoperiod-manipulation", desc: "The pros, cons, and physiological impacts of artificially inducing flowering cycles in greenhouse environments.", tags: ["Cultivation", "Yield Optimization"] },
+    { title: "Polyploidy in Cannabis: Triploids and Yield", slug: "polyploidy-cannabis-triploids", desc: "Exploring the induction of multiple chromosome sets to increase biomass, resin production, and genetic stability.", tags: ["Genetics", "Yield Optimization", "Breeding"] },
+    { title: "The Entourage Effect: Synergistic Mechanisms", slug: "entourage-effect-synergistic-mechanisms", desc: "Re-evaluating how cannabinoids and terpenoids interact to modulate the endocannabinoid system.", tags: ["Compounds", "Cannabinoids", "Terpenes"] },
+    { title: "Hermaphroditism: Stress-Induced Sex Reversal", slug: "hermaphroditism-stress-induced-reversal", desc: "Understanding the biological triggers of monoecious traits and evaluating the stability of feminized genetics.", tags: ["Genetics", "Plant Pathology", "Breeding"] },
+    { title: "Landrace Preservation & Genetic Drift", slug: "landrace-preservation-genetic-drift", desc: "The critical importance of conserving indigenous, unhybridized cultivars for agricultural biodiversity.", tags: ["Genetics", "Biodiversity", "Breeding"] },
+    { title: "Autoflowering Genetics: Cannabis Ruderalis", slug: "autoflowering-genetics-ruderalis", desc: "The evolutionary adaptation of day-neutral traits and their integration into modern high-THC hybrids.", tags: ["Genetics", "Breeding", "Cultivation"] },
+    { title: "Tissue Culture: Micropropagation & Pathogen Elimination", slug: "tissue-culture-micropropagation-pathogens", desc: "Securing elite genetics in sterile environments to eradicate viroids and maintain perpetual vigor.", tags: ["Genetics", "Plant Pathology", "Cultivation"] },
+    { title: "Canopy Management: Crop Steering and Yield Maximization", slug: "canopy-management-yield-maximization", desc: "Techniques for manipulating apical dominance to increase total biomass and floral density.", tags: ["Cultivation", "Yield Optimization"] },
+    { title: "Abiotic Stress Elicitation: Maximizing Cannabinoid Synthesis", slug: "abiotic-stress-maximizing-thc", desc: "How calculated environmental stressors trigger defensive THC and terpene production.", tags: ["Cultivation", "THC Maximization", "Plant Science"] },
+    { title: "The Rhizosphere: Mycorrhizal Networks and Microorganisms", slug: "rhizosphere-microbial-inoculants", desc: "Leveraging plant growth-promoting rhizobacteria (PGPR) and fungi for nutrient bioavailability.", tags: ["Cultivation", "Organic Farming", "Microbiology"] },
+    { title: "Beyond THC: The Therapeutic Potential of Minor Cannabinoids", slug: "minor-cannabinoids-cbg-cbn-thcv", desc: "Analyzing the biosynthetic pathways and physiological effects of CBG, CBN, and THCV.", tags: ["Compounds", "Cannabinoids", "Medical Cannabis"] },
+    { title: "Post-Harvest Physiology: Curing and Volatile Compound Preservation", slug: "post-harvest-curing-terpene-preservation", desc: "The science of moisture migration, chlorophyll degradation, and preventing monoterpene volatilization.", tags: ["Harvesting", "Curing", "Terpenes"] }
   ];
 
-  const categories = ["Genetics", "Cultivation", "Compounds", "Harvesting"];
+  const categories = ["Genetics", "Cultivation", "Compounds", "Harvesting", "Terpenes", "Yield Optimization", "Organic Farming", "Breeding", "Cannabinoids"];
 
   const filteredArticles = useMemo(() => {
     return articles.filter(art => {
+      const searchStr = searchQuery.toLowerCase();
       const matchesSearch = 
-        art.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-        art.desc.toLowerCase().includes(searchQuery.toLowerCase());
+        art.title.toLowerCase().includes(searchStr) || 
+        art.desc.toLowerCase().includes(searchStr) ||
+        art.tags.some(t => t.toLowerCase().includes(searchStr));
       
-      const matchesFilter = activeFilter ? art.category === activeFilter : true;
+      const matchesFilter = activeFilter ? art.tags.includes(activeFilter) : true;
 
       return matchesSearch && matchesFilter;
     });
@@ -86,11 +88,11 @@ export default function ResearchIndex() {
                 </button>
               )}
             </div>
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 mt-4 md:mt-0">
+            <div className="flex flex-col items-start gap-3 mt-4 md:mt-0">
               <div className="flex items-center gap-2 text-xs font-medium border border-lab-border px-3 py-1.5 rounded bg-white shadow-sm">
                 <Filter size={14} /> Taxonomy
               </div>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 max-w-md">
                 {categories.map(t => {
                   const isActive = activeFilter === t;
                   return (
@@ -131,8 +133,13 @@ export default function ResearchIndex() {
                     className="border border-lab-border bg-white p-6 rounded-xl h-full flex flex-col hover:border-primary hover:shadow-xl transition-all relative overflow-hidden"
                   >
                      <div className="flex justify-between items-start mb-4">
-                       <Beaker className="text-primary" size={24} />
-                       <span className="font-mono text-[10px] px-2 py-1 bg-lab-bg border border-lab-border rounded text-lab-text uppercase tracking-widest">{art.category}</span>
+                       <Beaker className="text-primary flex-shrink-0" size={24} />
+                       <div className="flex flex-wrap gap-1 justify-end">
+                         {art.tags.slice(0,2).map(tag => (
+                           <span key={tag} className="font-mono text-[9px] px-1.5 py-0.5 bg-lab-bg border border-lab-border rounded text-lab-text uppercase tracking-widest">{tag}</span>
+                         ))}
+                         {art.tags.length > 2 && <span className="font-mono text-[9px] px-1.5 py-0.5 bg-lab-bg border border-lab-border rounded text-lab-text uppercase tracking-widest">+{art.tags.length - 2}</span>}
+                       </div>
                      </div>
                      <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{art.title}</h3>
                      <p className="text-lab-text text-sm mb-6 flex-1">{art.desc}</p>

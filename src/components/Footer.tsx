@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 relative z-10">
         <div className="col-span-1 md:col-span-2">
           <div className="flex items-center gap-3 mb-6">
-            <Image src="/logo-white.png" alt="Seal" width={40} height={40} className="opacity-90 invert" />
+            <Image src="/logo-white.png" alt="Seal" width={40} height={40} className="opacity-90" />
             <span className="font-bold tracking-tight text-xl">OCEAN GROWN</span>
           </div>
           <p className="text-lab-bg/70 max-w-sm mb-6 text-sm">
