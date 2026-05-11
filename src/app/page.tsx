@@ -91,7 +91,7 @@ export default function Home() {
             <div className="relative grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 border-t border-lab-border/50 pt-4 md:pt-6 z-10 bg-white/60 backdrop-blur-sm p-4 rounded-xl">
               <div className="flex flex-col">
                 <span className="font-mono text-[10px] uppercase text-lab-text">Lineage</span>
-                <span className="font-bold text-xs md:text-sm">Alien Abduction x (Alien Dawg x Alien OG)</span>
+                <span className="font-bold text-xs md:text-sm">Alien Abduction x Alien Dawg x Alien OG</span>
               </div>
               <div className="flex flex-col">
                 <span className="font-mono text-[10px] uppercase text-lab-text">Flowering</span>
