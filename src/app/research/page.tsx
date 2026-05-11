@@ -7,7 +7,17 @@ export default function ResearchIndex() {
   const articles = [
     { title: "Clinical Efficacy of β-Myrcene", slug: "clinical-efficacy-myrcene", desc: "Sedative, analgesic, and anti-inflammatory pathways evaluated in clinical literature." },
     { title: "β-Caryophyllene: The Dietary Cannabinoid", slug: "caryophyllene-dietary-cannabinoid", desc: "Examining CB2 receptor agonism and systemic anti-inflammatory responses." },
-    { title: "D-Limonene: Anxiolytic Properties", slug: "limonene-anxiolytic-properties", desc: "Research highlighting the stress-relieving and mood-elevating mechanisms of Limonene." }
+    { title: "D-Limonene: Anxiolytic Properties", slug: "limonene-anxiolytic-properties", desc: "Research highlighting the stress-relieving and mood-elevating mechanisms of Limonene." },
+    { title: "Epigenetics: Environmental Influence on Phenotypic Expression", slug: "epigenetics-cannabis-phenotypes", desc: "How temperature, lighting, and stress alter gene expression without changing the underlying DNA sequence." },
+    { title: "Mendelian Genetics: Unlocking Recessive Traits", slug: "mendelian-genetics-recessive-traits", desc: "Understanding Punnett squares, homozygous alleles, and the isolation of hidden genetic markers in F2 generations." },
+    { title: "Hydroponics vs. Living Soil: Terpene Biosynthesis", slug: "hydroponics-living-soil-terpene-biosynthesis", desc: "Analyzing the differing organoleptic expressions and biosynthetic pathways between inert substrates and organic webs." },
+    { title: "Light Deprivation: Manipulating Photoperiods", slug: "light-deprivation-photoperiod-manipulation", desc: "The pros, cons, and physiological impacts of artificially inducing flowering cycles in greenhouse environments." },
+    { title: "Polyploidy in Cannabis: Triploids and Yield", slug: "polyploidy-cannabis-triploids", desc: "Exploring the induction of multiple chromosome sets to increase biomass, resin production, and genetic stability." },
+    { title: "The Entourage Effect: Synergistic Mechanisms", slug: "entourage-effect-synergistic-mechanisms", desc: "Re-evaluating how cannabinoids and terpenoids interact to modulate the endocannabinoid system." },
+    { title: "Hermaphroditism: Stress-Induced Sex Reversal", slug: "hermaphroditism-stress-induced-reversal", desc: "Understanding the biological triggers of monoecious traits and evaluating the stability of feminized genetics." },
+    { title: "Landrace Preservation & Genetic Drift", slug: "landrace-preservation-genetic-drift", desc: "The critical importance of conserving indigenous, unhybridized cultivars for agricultural biodiversity." },
+    { title: "Autoflowering Genetics: Cannabis Ruderalis", slug: "autoflowering-genetics-ruderalis", desc: "The evolutionary adaptation of day-neutral traits and their integration into modern high-THC hybrids." },
+    { title: "Tissue Culture: Micropropagation & Pathogen Elimination", slug: "tissue-culture-micropropagation-pathogens", desc: "Securing elite genetics in sterile environments to eradicate viroids and maintain perpetual vigor." }
   ];
 
   return (
