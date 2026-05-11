@@ -30,6 +30,7 @@ export default function Article() {
         <div className="prose prose-lg max-w-none text-foreground/80 mb-16 space-y-6">
           <p>Mendelian inheritance models form the bedrock of cannabis hybridization. While F1 (first generation) crosses often display immense vigor and uniform dominance, breeders seeking unique or rare traits must often look to the F2 generation and beyond.</p>
     <p>Recessive traits&mdash;such as specific leaf mutations, autoflowering characteristics, or unique minor cannabinoid profiles (like THCV or CBDV)&mdash;are frequently masked by dominant alleles in an F1 hybrid. By crossing two F1 siblings to create an F2 generation, the alleles recombine, allowing recessive traits to visibly express in approximately 25% of the population. Isolating these homozygous recessive plants is the crucial first step in breeding entirely new, stable phenotypic lines.</p>
+          <p>Modern genomic sequencing is rapidly accelerating this process. Marker-assisted selection (MAS) allows geneticists to identify the exact chromosomal locations of these recessive traits at the seedling stage. Instead of growing hundreds of F2 plants to full maturity to observe physical phenotypes, breeders can now screen DNA from a single cotyledon leaf, saving immense time and resources while pinpointing the exact homozygous recessive candidates required for the next generation of breeding.</p>
         </div>
         
         <div className="bg-topo border border-lab-border p-6 rounded-xl mb-12">

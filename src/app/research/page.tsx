@@ -44,9 +44,9 @@ export default function ResearchIndex() {
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2 text-accent-dark mb-2">
             <BookOpen size={16} />
-            <span className="font-mono text-xs uppercase tracking-widest">Clinical Research & Publications</span>
+            <span className="font-mono text-xs uppercase tracking-widest">Agronomy, Genetics & Clinical Research</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-foreground mt-2">Terpene Efficacy Lab.</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-foreground mt-2">Applied Cannabis Science & Genetics.</h1>
           <p className="mt-4 max-w-2xl text-lab-text text-lg">Peer-reviewed clinical evaluations of specific terpene isolates and their corresponding genetic pathways within the Ocean Grown catalog.</p>
         </div>
       </section>
