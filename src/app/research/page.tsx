@@ -1,9 +1,18 @@
 "use client";
 import Link from 'next/link';
-import { Beaker, BookOpen, ArrowRight, Search, Filter, X } from 'lucide-react';
+import { Beaker, BookOpen, ArrowRight, Search, Filter, X, Dna, Sprout, Scissors } from 'lucide-react';
 import Image from 'next/image';
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+
+
+const getIcon = (tags: string[]) => {
+  const primary = tags[0];
+  if (primary === 'Genetics') return <Dna className="text-primary flex-shrink-0" size={24} />;
+  if (primary === 'Cultivation') return <Sprout className="text-primary flex-shrink-0" size={24} />;
+  if (primary === 'Harvesting') return <Scissors className="text-primary flex-shrink-0" size={24} />;
+  return <Beaker className="text-primary flex-shrink-0" size={24} />;
+};
 
 export default function ResearchIndex() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -133,7 +142,7 @@ export default function ResearchIndex() {
                     className="border border-lab-border bg-white p-6 rounded-xl h-full flex flex-col hover:border-primary hover:shadow-xl transition-all relative overflow-hidden"
                   >
                      <div className="flex justify-between items-start mb-4">
-                       <Beaker className="text-primary flex-shrink-0" size={24} />
+                       {getIcon(art.tags)}
                        <div className="flex flex-wrap gap-1 justify-end">
                          {art.tags.slice(0,2).map(tag => (
                            <span key={tag} className="font-mono text-[9px] px-1.5 py-0.5 bg-lab-bg border border-lab-border rounded text-lab-text uppercase tracking-widest">{tag}</span>
