@@ -1,12 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
-import { Droplet, Beaker, Leaf, ArrowRight, Activity, Search } from "lucide-react";
+import { Beaker, ArrowRight, Activity, Search } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { STRAIN_DB } from "@/lib/strains";
 
 export default function Home() {
-  // Homepage requested strains: Alien Rift, Vader OG, Jawa Pie
   const featuredStrains = STRAIN_DB.filter(s => 
     ['alien-rift', 'vader-og', 'jawa-pie'].includes(s.slug)
   );
@@ -24,9 +23,7 @@ export default function Home() {
           <Link href="/genetics" className="hover:text-primary transition-colors">RESEARCH</Link>
           <Link href="/genetics" className="hover:text-primary transition-colors">ARCHIVE</Link>
         </nav>
-        <div>
-          
-        </div>
+        <div className="hidden md:block w-24"></div>
       </header>
 
       {/* HERO SECTION */}
@@ -42,9 +39,9 @@ export default function Home() {
               <span className="flex items-center justify-center w-8 h-8 rounded bg-accent/20 text-accent-dark">
                 <Beaker size={16} />
               </span>
-              <span className="font-mono text-xs uppercase tracking-[0.2em] text-lab-text">
+              <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-lab-text m-0">
                 Protocol: Hybridization
-              </span>
+              </h2>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-[1.05] text-foreground">
@@ -68,7 +65,7 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* HERO VISUAL (CLINICAL AESTHETIC) */}
+          {/* HERO VISUAL */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -109,7 +106,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* RECENT BATCHES / STRAIN CARDS */}
+      {/* RECENT BATCHES */}
       <section className="py-16 md:py-24 px-4 md:px-8 border-t border-lab-border bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 md:mb-12 gap-4 md:gap-0">
