@@ -1,18 +1,26 @@
 "use client";
 import { motion } from "framer-motion";
-import { Beaker, ArrowRight, Activity, Search, Dna } from "lucide-react";
+import { Dna, ArrowRight, Activity, Search, BookOpen, Film, Play, FlaskConical } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { STRAIN_DB } from "@/lib/strains";
+import { VIDEO_DB } from "@/lib/archive";
 
 export default function Home() {
   const featuredStrains = STRAIN_DB.filter(s => 
-    ['alien-rift', 'vader-og', 'jawa-pie'].includes(s.slug)
+    ['alien-rift', 'vader-og', 'jawa-pie', 'obi-wan-og', 'dark-plasma', 'dreadnought'].includes(s.slug)
   );
+
+  const featuredVideos = VIDEO_DB.slice(0, 3);
+  
+  const featuredResearch = [
+    { title: "Clinical Efficacy of β-Myrcene", slug: "clinical-efficacy-myrcene", desc: "Sedative, analgesic, and anti-inflammatory pathways evaluated in clinical literature.", category: "Compounds" },
+    { title: "Epigenetics: Environmental Influence on Phenotypic Expression", slug: "epigenetics-cannabis-phenotypes", desc: "How temperature, lighting, and stress alter gene expression without changing the underlying DNA sequence.", category: "Genetics" },
+    { title: "Canopy Management: Crop Steering and Yield Maximization", slug: "canopy-management-yield-maximization", desc: "Techniques for manipulating apical dominance to increase total biomass and floral density.", category: "Cultivation" }
+  ];
 
   return (
     <main className="min-h-screen bg-topo relative overflow-hidden">
-      {/* HEADER */}
       <header className="absolute top-0 w-full z-50 px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-center border-b border-lab-border bg-white/50 backdrop-blur-md gap-4 md:gap-0">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo-black.png" alt="Ocean Grown Seeds Seal" width={40} height={40} className="opacity-90" priority />
@@ -20,13 +28,12 @@ export default function Home() {
         </Link>
         <nav className="flex flex-wrap justify-center gap-4 md:gap-8 text-sm font-medium text-lab-text">
           <Link href="/genetics" className="hover:text-primary transition-colors">GENETICS</Link>
-          <Link href="/research" className="hover:text-primary transition-colors pb-1">RESEARCH</Link>
-          <Link href="/archive" className="hover:text-primary transition-colors pb-1">ARCHIVE</Link>
+          <Link href="/research" className="hover:text-primary transition-colors">RESEARCH</Link>
+          <Link href="/archive" className="hover:text-primary transition-colors">ARCHIVE</Link>
         </nav>
         <div className="hidden md:block w-24"></div>
       </header>
 
-      {/* HERO SECTION */}
       <section className="relative pt-32 md:pt-40 pb-20 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
           
@@ -65,7 +72,6 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* HERO VISUAL */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -106,16 +112,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* RECENT BATCHES */}
       <section className="py-16 md:py-24 px-4 md:px-8 border-t border-lab-border bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 md:mb-12 gap-4 md:gap-0">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-2">Genetic Archive</h2>
-              <p className="text-lab-text">Verified hybridization protocols.</p>
+              <div className="flex items-center gap-2 text-primary mb-2">
+                <Dna size={16} />
+                <span className="font-mono text-xs uppercase tracking-widest">Specimen Inventory</span>
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-2">Genetic Archive.</h2>
+              <p className="text-lab-text max-w-xl">Verified hybridization protocols. Explore our flagship cultivars renowned for unparalleled resin production and profound terpene profiles.</p>
             </div>
-            <Link href="/genetics" className="flex items-center justify-center w-full md:w-auto gap-2 text-sm font-medium border border-lab-border px-4 py-2 rounded-md hover:border-primary hover:text-primary transition-colors">
-              <Search size={16} /> Search Database
+            <Link href="/genetics" className="flex items-center justify-center w-full md:w-auto gap-2 text-sm font-medium border border-lab-border px-6 py-3 rounded-md hover:border-primary hover:text-primary transition-colors shadow-sm">
+              <Search size={16} /> Search Full Database
             </Link>
           </div>
 
@@ -152,6 +161,98 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section>
+
+      <section className="py-16 md:py-24 px-4 md:px-8 border-t border-lab-border bg-topo relative">
+        <div className="max-w-7xl mx-auto">
+           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
+              <div>
+                <div className="flex items-center gap-2 text-accent-dark mb-2">
+                  <BookOpen size={16} />
+                  <span className="font-mono text-xs uppercase tracking-widest">Applied Cannabis Science</span>
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-2">Clinical Research.</h2>
+                <p className="text-lab-text max-w-2xl">Peer-reviewed clinical data and advanced cultivation protocols bridging the gap between agronomy and therapeutic efficacy.</p>
+              </div>
+              <Link href="/research" className="flex items-center justify-center w-full md:w-auto gap-2 text-sm font-medium border border-lab-border bg-white px-6 py-3 rounded-md hover:border-primary hover:text-primary transition-colors shadow-sm">
+                View Full Library <ArrowRight size={16} />
+              </Link>
+           </div>
+           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+             {featuredResearch.map((art, i) => (
+               <Link key={art.slug} href={`/research/${art.slug}`} className="block group h-full">
+                  <motion.div 
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: i * 0.1 }}
+                    className="border border-lab-border bg-white p-6 rounded-xl h-full flex flex-col hover:border-primary hover:shadow-xl transition-all relative overflow-hidden"
+                  >
+                     <div className="flex justify-between items-start mb-4">
+                       <FlaskConical className="text-primary flex-shrink-0" size={24} />
+                       <span className="font-mono text-[10px] px-2 py-1 bg-lab-bg border border-lab-border rounded text-lab-text uppercase tracking-widest">{art.category}</span>
+                     </div>
+                     <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{art.title}</h3>
+                     <p className="text-lab-text text-sm mb-6 flex-1">{art.desc}</p>
+                     <div className="flex items-center gap-2 text-xs font-mono font-bold text-accent-dark uppercase tracking-widest mt-auto">
+                       Read Publication <ArrowRight size={14} />
+                     </div>
+                  </motion.div>
+               </Link>
+             ))}
+           </div>
+        </div>
+      </section>
+
+      <section className="py-16 md:py-24 px-4 md:px-8 border-t border-lab-border bg-foreground text-background relative overflow-hidden">
+         <div className="absolute inset-0 bg-topo opacity-5 mix-blend-overlay"></div>
+         <div className="max-w-7xl mx-auto relative z-10">
+           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
+              <div>
+                <div className="flex items-center gap-2 text-primary mb-2">
+                  <Film size={16} />
+                  <span className="font-mono text-xs uppercase tracking-widest">Video & Media Catalog</span>
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-2 text-white">The Vault.</h2>
+                <p className="text-lab-bg/70 max-w-2xl">Curated grow logs, pheno hunts, cultivation tutorials, and strain reviews directly from the VaderOG archives.</p>
+              </div>
+              <Link href="/archive" className="flex items-center justify-center w-full md:w-auto gap-2 text-sm font-medium border border-white/20 bg-white/5 px-6 py-3 rounded-md hover:bg-primary hover:border-primary transition-all text-white">
+                Enter The Vault <Play size={16} fill="currentColor" className="ml-1" />
+              </Link>
+           </div>
+           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+             {featuredVideos.map((video, i) => (
+               <Link key={video.id} href="/archive" className="block group h-full">
+                  <motion.div 
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: i * 0.1 }}
+                    className="border border-white/10 bg-white/5 rounded-xl overflow-hidden hover:border-primary/50 transition-all cursor-pointer flex flex-col h-full"
+                  >
+                    <div className="relative aspect-video w-full bg-black border-b border-white/10 overflow-hidden">
+                       <Image 
+                         src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`} 
+                         alt={video.title} 
+                         fill 
+                         className="object-cover transition-transform duration-700 group-hover:scale-105 opacity-80 group-hover:opacity-100"
+                       />
+                       <div className="absolute inset-0 flex items-center justify-center">
+                          <div className="w-12 h-12 bg-black/50 backdrop-blur-md rounded-full flex items-center justify-center border border-white/20 group-hover:scale-110 transition-transform">
+                             <Play className="text-white fill-white ml-1" size={18} />
+                          </div>
+                       </div>
+                    </div>
+                    <div className="p-6 flex-1 flex flex-col">
+                       <span className="font-mono text-[10px] text-primary uppercase tracking-widest mb-2">{video.category}</span>
+                       <h3 className="text-lg font-bold text-white mb-2 leading-snug group-hover:text-primary transition-colors line-clamp-2">{video.title}</h3>
+                       <p className="text-lab-bg/50 text-sm line-clamp-2">{video.description}</p>
+                    </div>
+                  </motion.div>
+               </Link>
+             ))}
+           </div>
+         </div>
       </section>
     </main>
   );
