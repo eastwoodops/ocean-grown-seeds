@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Beaker, ArrowRight, Activity, Search } from "lucide-react";
+import { Beaker, ArrowRight, Activity, Search, Dna } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { STRAIN_DB } from "@/lib/strains";
@@ -37,7 +37,7 @@ export default function Home() {
           >
             <div className="flex items-center gap-3 mb-6">
               <span className="flex items-center justify-center w-8 h-8 rounded bg-accent/20 text-accent-dark">
-                <Beaker size={16} />
+                <Dna size={16} />
               </span>
               <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-lab-text m-0">
                 Protocol: Hybridization
