@@ -1,12 +1,20 @@
 "use client";
 import { motion } from "framer-motion";
-import { Dna, ArrowRight, Activity, Search, BookOpen, Film, Play, FlaskConical } from "lucide-react";
+import { Dna, ArrowRight, Activity, Search, BookOpen, Film, Play, FlaskConical, Beaker, Sprout, Scissors } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { STRAIN_DB } from "@/lib/strains";
 import { VIDEO_DB } from "@/lib/archive";
 
 export default function Home() {
+
+  const getIcon = (category: string) => {
+    if (category === 'Genetics') return <Dna className="text-primary flex-shrink-0" size={24} />;
+    if (category === 'Cultivation') return <Sprout className="text-primary flex-shrink-0" size={24} />;
+    if (category === 'Harvesting') return <Scissors className="text-primary flex-shrink-0" size={24} />;
+    return <Beaker className="text-primary flex-shrink-0" size={24} />;
+  };
+
   const featuredStrains = STRAIN_DB.filter(s => 
     ['alien-rift', 'vader-og', 'jawa-pie', 'obi-wan-og', 'dark-plasma', 'dreadnought'].includes(s.slug)
   );
@@ -189,7 +197,7 @@ export default function Home() {
                     className="border border-lab-border bg-white p-6 rounded-xl h-full flex flex-col hover:border-primary hover:shadow-xl transition-all relative overflow-hidden"
                   >
                      <div className="flex justify-between items-start mb-4">
-                       <FlaskConical className="text-primary flex-shrink-0" size={24} />
+                       {getIcon(art.category)}
                        <span className="font-mono text-[10px] px-2 py-1 bg-lab-bg border border-lab-border rounded text-lab-text uppercase tracking-widest">{art.category}</span>
                      </div>
                      <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{art.title}</h3>
