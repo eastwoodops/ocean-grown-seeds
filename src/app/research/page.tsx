@@ -17,7 +17,12 @@ export default function ResearchIndex() {
     { title: "Hermaphroditism: Stress-Induced Sex Reversal", slug: "hermaphroditism-stress-induced-reversal", desc: "Understanding the biological triggers of monoecious traits and evaluating the stability of feminized genetics." },
     { title: "Landrace Preservation & Genetic Drift", slug: "landrace-preservation-genetic-drift", desc: "The critical importance of conserving indigenous, unhybridized cultivars for agricultural biodiversity." },
     { title: "Autoflowering Genetics: Cannabis Ruderalis", slug: "autoflowering-genetics-ruderalis", desc: "The evolutionary adaptation of day-neutral traits and their integration into modern high-THC hybrids." },
-    { title: "Tissue Culture: Micropropagation & Pathogen Elimination", slug: "tissue-culture-micropropagation-pathogens", desc: "Securing elite genetics in sterile environments to eradicate viroids and maintain perpetual vigor." }
+    { title: "Tissue Culture: Micropropagation & Pathogen Elimination", slug: "tissue-culture-micropropagation-pathogens", desc: "Securing elite genetics in sterile environments to eradicate viroids and maintain perpetual vigor." },
+    { title: "Canopy Management: Crop Steering and Yield Maximization", slug: "canopy-management-yield-maximization", desc: "Techniques for manipulating apical dominance to increase total biomass and floral density." },
+    { title: "Abiotic Stress Elicitation: Maximizing Cannabinoid Synthesis", slug: "abiotic-stress-maximizing-thc", desc: "How calculated environmental stressors trigger defensive THC and terpene production." },
+    { title: "The Rhizosphere: Mycorrhizal Networks and Microorganisms", slug: "rhizosphere-microbial-inoculants", desc: "Leveraging plant growth-promoting rhizobacteria (PGPR) and fungi for nutrient bioavailability." },
+    { title: "Beyond THC: The Therapeutic Potential of Minor Cannabinoids", slug: "minor-cannabinoids-cbg-cbn-thcv", desc: "Analyzing the biosynthetic pathways and physiological effects of CBG, CBN, and THCV." },
+    { title: "Post-Harvest Physiology: Curing and Volatile Compound Preservation", slug: "post-harvest-curing-terpene-preservation", desc: "The science of moisture migration, chlorophyll degradation, and preventing monoterpene volatilization." }
   ];
 
   return (
