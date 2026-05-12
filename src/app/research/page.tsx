@@ -41,7 +41,8 @@ export default function ResearchIndex() {
     { title: "Abiotic Stress Elicitation: Maximizing Cannabinoid Synthesis", slug: "abiotic-stress-maximizing-thc", desc: "How calculated environmental stressors trigger defensive THC and terpene production.", tags: ["Cultivation", "THC Maximization", "Plant Science"] },
     { title: "The Rhizosphere: Mycorrhizal Networks and Microorganisms", slug: "rhizosphere-microbial-inoculants", desc: "Leveraging plant growth-promoting rhizobacteria (PGPR) and fungi for nutrient bioavailability.", tags: ["Cultivation", "Organic Farming", "Microbiology"] },
     { title: "Beyond THC: The Therapeutic Potential of Minor Cannabinoids", slug: "minor-cannabinoids-cbg-cbn-thcv", desc: "Analyzing the biosynthetic pathways and physiological effects of CBG, CBN, and THCV.", tags: ["Compounds", "Cannabinoids", "Medical Cannabis"] },
-    { title: "Post-Harvest Physiology: Curing and Volatile Compound Preservation", slug: "post-harvest-curing-terpene-preservation", desc: "The science of moisture migration, chlorophyll degradation, and preventing monoterpene volatilization.", tags: ["Harvesting", "Curing", "Terpenes"] }
+    { title: "Post-Harvest Physiology: Curing and Volatile Compound Preservation", slug: "post-harvest-curing-terpene-preservation", desc: "The science of moisture migration, chlorophyll degradation, and preventing monoterpene volatilization.", tags: ["Harvesting", "Curing", "Terpenes"] },
+    { title: "Seed Sprouting Explained", slug: "seed-sprouting-explained", desc: "A step-by-step tutorial on seed germination, early root-zone establishment, and the biological stages of sprouting cannabis seeds.", tags: ["Cultivation","Tutorial","Seed Germination"] }
   ];
     return articles.filter(art => {
       const searchStr = searchQuery.toLowerCase();
