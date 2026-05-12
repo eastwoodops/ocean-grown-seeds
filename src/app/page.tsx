@@ -52,7 +52,7 @@ export default function Home() {
           >
             <div className="flex items-center gap-3 mb-6">
               <span className="flex items-center justify-center w-8 h-8 rounded bg-accent/20 text-accent-dark">
-                <Dna size={16} />
+                <Sprout size={16} />
               </span>
               <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-lab-text m-0">
                 Protocol: Hybridization
