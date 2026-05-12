@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Space_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import AgeGate from "@/components/AgeGate";
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -67,6 +68,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${spaceMono.variable} font-sans antialiased text-foreground bg-background`}>
+        <AgeGate />
         {children}
         <Footer />
       </body>

@@ -6,10 +6,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { STRAIN_DB } from "@/lib/strains";
+import { VIDEO_DB } from "@/lib/archive";
 
 export default function StrainDetail({ params }: { params: { id: string } }) {
   const strain = STRAIN_DB.find(s => s.slug === params.id) || STRAIN_DB[0];
   const [activeImage, setActiveImage] = useState<string | null>(null);
+  const relatedVideo = VIDEO_DB.find(v => v.title.toLowerCase().includes(strain.name.toLowerCase()) || (v.description && v.description.toLowerCase().includes(strain.name.toLowerCase())));
   const displayImage = activeImage || strain.image;
 
   return (
@@ -175,13 +177,15 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
 
           {/* Action Area */}
           <div className="flex gap-4">
-            <button className="flex-1 bg-primary text-white font-medium py-4 rounded-sm flex items-center justify-center gap-3 hover:bg-primary-dark transition-all shadow-lg shadow-primary/20">
+            <a href="https://lumberjackseedsource.com" target="_blank" rel="noopener noreferrer" className="flex-1 bg-primary text-white font-medium py-4 rounded-sm flex items-center justify-center gap-3 hover:bg-primary-dark transition-all shadow-lg shadow-primary/20">
               Acquire Specimen Pack
               <ArrowRight size={18} />
-            </button>
-            <button className="px-8 bg-white border border-lab-border text-foreground font-medium py-4 rounded-sm hover:bg-lab-bg transition-all">
-              View Grow Logs
-            </button>
+            </a>
+            {relatedVideo && (
+              <Link href="/archive" className="px-8 flex items-center justify-center bg-white border border-lab-border text-foreground font-medium py-4 rounded-sm hover:bg-lab-bg transition-all">
+                View Grow Logs
+              </Link>
+            )}
           </div>
 
         </motion.div>
