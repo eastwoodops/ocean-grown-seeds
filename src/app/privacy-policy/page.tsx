@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
         
         <div className="prose max-w-none text-lab-text space-y-6">
           <p>Last Updated: January 1, 2026</p>
-          <p>Ocean Grown Seeds ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Ocean Grown Seeds.</p>
+          <p>Ocean Grown Seeds (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Ocean Grown Seeds.</p>
           
           <h2 className="text-xl font-bold text-foreground mt-8 mb-4">1. Information We Collect</h2>
           <p>We do not directly process payments or collect highly sensitive financial data on this domain. We may collect information you provide directly to us when you subscribe to our newsletter, request customer support, or communicate with us via third-party social platforms.</p>

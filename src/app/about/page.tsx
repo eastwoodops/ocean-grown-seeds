@@ -45,7 +45,7 @@ export default function About() {
           </p>
           <div className="mt-12 p-6 bg-topo border border-lab-border rounded-xl">
              <p className="font-mono text-sm text-lab-text mb-0">
-               "Just a Cosmic Astronaut piloting my way through the Cannabis Universe."<br/>
+               &quot;Just a Cosmic Astronaut piloting my way through the Cannabis Universe.&quot;<br/>
                — VaderOG
              </p>
           </div>

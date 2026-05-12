@@ -18,7 +18,12 @@ export default function ResearchIndex() {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeFilter, setActiveFilter] = useState("");
 
-  const articles = [
+  
+
+  const categories = ["Genetics", "Cultivation", "Compounds", "Harvesting", "Terpenes", "Yield Optimization", "Organic Farming", "Breeding", "Cannabinoids"];
+
+  const filteredArticles = useMemo(() => {
+    const articles = [
     { title: "Clinical Efficacy of β-Myrcene", slug: "clinical-efficacy-myrcene", desc: "Sedative, analgesic, and anti-inflammatory pathways evaluated in clinical literature.", tags: ["Terpenes", "Compounds", "Pain Management"] },
     { title: "β-Caryophyllene: The Dietary Cannabinoid", slug: "caryophyllene-dietary-cannabinoid", desc: "Examining CB2 receptor agonism and systemic anti-inflammatory responses.", tags: ["Terpenes", "Compounds", "Anti-inflammatory"] },
     { title: "D-Limonene: Anxiolytic Properties", slug: "limonene-anxiolytic-properties", desc: "Research highlighting the stress-relieving and mood-elevating mechanisms of Limonene.", tags: ["Terpenes", "Compounds", "Mental Health"] },
@@ -38,10 +43,6 @@ export default function ResearchIndex() {
     { title: "Beyond THC: The Therapeutic Potential of Minor Cannabinoids", slug: "minor-cannabinoids-cbg-cbn-thcv", desc: "Analyzing the biosynthetic pathways and physiological effects of CBG, CBN, and THCV.", tags: ["Compounds", "Cannabinoids", "Medical Cannabis"] },
     { title: "Post-Harvest Physiology: Curing and Volatile Compound Preservation", slug: "post-harvest-curing-terpene-preservation", desc: "The science of moisture migration, chlorophyll degradation, and preventing monoterpene volatilization.", tags: ["Harvesting", "Curing", "Terpenes"] }
   ];
-
-  const categories = ["Genetics", "Cultivation", "Compounds", "Harvesting", "Terpenes", "Yield Optimization", "Organic Farming", "Breeding", "Cannabinoids"];
-
-  const filteredArticles = useMemo(() => {
     return articles.filter(art => {
       const searchStr = searchQuery.toLowerCase();
       const matchesSearch = 
