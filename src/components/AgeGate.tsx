@@ -29,7 +29,7 @@ export default function AgeGate() {
       <div className="bg-background border border-lab-border p-8 md:p-12 rounded-xl max-w-lg w-full text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-topo opacity-5 mix-blend-overlay pointer-events-none"></div>
         <div className="relative z-10 flex flex-col items-center">
-          <Image src="/logo-black.png" alt="Ocean Grown Seeds" width={64} height={64} className="mb-6 opacity-90 invert dark:invert-0" />
+          <Image src="/logo-black.png" alt="Ocean Grown Seeds" width={64} height={64} className="mb-6 opacity-90" />
           <h2 className="text-3xl font-extrabold tracking-tight mb-4 uppercase">Age Verification</h2>
           <p className="text-lab-text mb-8">
             You must be 21 years of age or older to enter this site. By entering, you agree to our Terms of Service and Privacy Policy. All genetics are sold as novelty souvenirs.
