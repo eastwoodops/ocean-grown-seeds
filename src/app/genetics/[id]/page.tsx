@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowLeft, ArrowRight, Beaker, Activity, ShieldCheck, Dna, Leaf, Droplet, Sprout } from "lucide-react";
+import { ArrowLeft, ArrowRight, Beaker, Activity, ShieldCheck, Dna, Leaf, Droplet, Sprout, Ruler } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -93,11 +93,16 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
         >
           {/* Specimen Header */}
           <div className="mb-8 border-b border-lab-border pb-8">
-            <div className="flex items-center gap-3 mb-2">
+            <div className="flex flex-wrap items-center gap-3 mb-2">
               <span className="font-mono text-xs text-lab-text uppercase tracking-widest bg-lab-bg border border-lab-border px-2 py-0.5 rounded">ID: {strain.id}</span>
               <span className={`font-mono text-[10px] uppercase tracking-widest px-2 py-0.5 rounded border ${strain.status === 'Active' ? 'bg-accent/10 border-accent/20 text-accent-dark' : 'bg-lab-bg border-lab-border text-lab-text'}`}>
                 Status: {strain.status}
               </span>
+              {strain.breeder && (
+                <span className="font-mono text-[10px] uppercase tracking-widest px-2 py-0.5 rounded border bg-lab-bg border-lab-border text-lab-text">
+                  Breeder: {strain.breeder}
+                </span>
+              )}
             </div>
             <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight text-foreground mb-4">{strain.name}</h1>
             <p className="text-lg text-lab-text leading-relaxed">{strain.description}</p>
@@ -136,7 +141,7 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
           <h3 className="font-mono text-xs uppercase tracking-widest text-lab-text mb-4 flex items-center gap-2">
             <Activity size={16} /> Verified Lab Metrics
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mb-10">
             <div className="bg-white border border-lab-border p-4 rounded-lg shadow-sm">
               <div className="font-mono text-[10px] uppercase text-lab-text mb-1 flex items-center gap-1"><Sprout size={12}/> Type</div>
               <div className="font-bold text-sm">{strain.type}</div>
@@ -153,6 +158,12 @@ export default function StrainDetail({ params }: { params: { id: string } }) {
               <div className="font-mono text-[10px] uppercase text-lab-text mb-1 flex items-center gap-1"><Beaker size={12}/> Flowering</div>
               <div className="font-bold text-sm">{strain.flow}</div>
             </div>
+            {strain.stretch && (
+              <div className="bg-white border border-lab-border p-4 rounded-lg shadow-sm">
+                <div className="font-mono text-[10px] uppercase text-lab-text mb-1 flex items-center gap-1"><Ruler size={12}/> Stretch</div>
+                <div className="font-bold text-sm">{strain.stretch}</div>
+              </div>
+            )}
           </div>
 
           {/* Terpene Profile */}
