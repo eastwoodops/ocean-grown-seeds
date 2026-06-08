@@ -110,7 +110,7 @@ export const STRAIN_DB: Strain[] = [
     aroma: "Citrus, Gas, Floral Pine",
     status: "Active",
     description:
-      "Obi Wan OG merges the legendary, euphoric Ghost OG cut with the resinous power of our Alien Rift male.",
+      "Obi Wan OG Kush is a cross between our Alien Rift stud male and the clone-only Ghost OG mother. Growers can expect a medium to high yielding plant with tight, dense nodes resulting in thick, resin-coated kolas. Obi Wan OG Kush has a pungent lemon and fuel aroma with hints of pine.",
     image:
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/obiwan-og-300x300.jpg",
     stretch: "50-60%",
@@ -379,7 +379,7 @@ export const STRAIN_DB: Strain[] = [
     aroma: "Cookie Dough, Lime",
     status: "Active",
     description:
-      "Dark Helmet is the result of a special project, locking down the unique traits and flavor profile of Forum Girl Scout Cookies into seed form by back-crossing the clone only cut to our Jawa Pie ( Key Lime Pie x Alien rift ) frost male. Key Lime Pie is a clone-only &#8216;sister' phenotype or cultivar of the Girl Scout Cookies lineage. Growers can expect very dense and frosty bud sites with a limey, sugar cookie terpene profile.",
+      "Dark Helmet is the result of a special project, locking down the unique traits and flavor profile of Forum Girl Scout Cookies into seed form by back-crossing the clone only cut to our Jawa Pie ( Key Lime Pie x Alien rift ) frost male. Key Lime Pie is a clone-only 'sister' phenotype or cultivar of the Girl Scout Cookies lineage. Growers can expect very dense and frosty bud sites with a limey, sugar cookie terpene profile.",
     image:
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Dark-Helmet-2.jpg",
     images: [
@@ -524,7 +524,7 @@ export const STRAIN_DB: Strain[] = [
     aroma: "Earthy, Gas",
     status: "Archived",
     description:
-      "AstroChimp combines GG #4 with our Alien Rift #6 stud male resulting in a robust new flavor profile. While vegetative plants tend to remain stout, a significant stretch has been noted in flower, resulting in finishing plants that require branch support. Growers can expect stacked branches wrapped in colorful frosted kolas with a strong citrus, &#8216;glue' smell that hints at pineapple",
+      "AstroChimp combines GG #4 with our Alien Rift #6 stud male resulting in a robust new flavor profile. While vegetative plants tend to remain stout, a significant stretch has been noted in flower, resulting in finishing plants that require branch support. Growers can expect stacked branches wrapped in colorful frosted kolas with a strong citrus, 'glue' smell that hints at pineapple",
     image:
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/astrochimp-shrimp-05.jpg",
     images: [
@@ -576,7 +576,7 @@ export const STRAIN_DB: Strain[] = [
     aroma: "Earthy, Gas",
     status: "Archived",
     description:
-      "We pollinated our Alien Rift &#8216;Bro-Side' female specimen with the Wizard's Glue F1 male stud to create this unruly beast. Growers can expect to see early frost on fan leaves with dense trichome coverage at bud-sites. Aromas range from burnt rubber fumes to sharp lemon pinesol. Expect a hungry vegetative phase with significant stretch in flower. Topping and low-stress training techniques such as using super-cropping and trellising are recommended. When the stars have come right for the Great Old Ones, \"some force from outside must serve to liberate their bodies. The spells that preserved Them intact likewise prevented them from making an initial move. Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
+      "We pollinated our Alien Rift 'Bro-Side' female specimen with the Wizard's Glue F1 male stud to create this unruly beast. Growers can expect to see early frost on fan leaves with dense trichome coverage at bud-sites. Aromas range from burnt rubber fumes to sharp lemon pinesol. Expect a hungry vegetative phase with significant stretch in flower. Topping and low-stress training techniques such as using super-cropping and trellising are recommended. When the stars have come right for the Great Old Ones, \"some force from outside must serve to liberate their bodies. The spells that preserved Them intact likewise prevented them from making an initial move. Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
     image:
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/cthulhu-flush-01.jpg",
     images: [
@@ -916,7 +916,7 @@ export const STRAIN_DB: Strain[] = [
     aroma: "Earthy, Gas",
     status: "Active",
     description:
-      "Tropic Moon combines our &#8216;Malibu' (F1 Cultivar) with the second generation Vader OG stud male. The result is a potent cross that yields dense flower sites packed with trichomes. The combination of the Malibu and Vader OG results in a flavor profile reminiscent of pina colada and sweet alcoholic lime &#8216;fumes' with a hint of margarita.",
+      "Tropic Moon combines our 'Malibu' (F1 Cultivar) with the second generation Vader OG stud male. The result is a potent cross that yields dense flower sites packed with trichomes. The combination of the Malibu and Vader OG results in a flavor profile reminiscent of pina colada and sweet alcoholic lime 'fumes' with a hint of margarita.",
     image:
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/tropic-moon-03.jpg",
     images: [
@@ -969,7 +969,7 @@ export const STRAIN_DB: Strain[] = [
     aroma: "Earthy, Gas",
     status: "Archived",
     description:
-      "Wizard's Glue is a combination of GG #4 and our Wizard's Potion stud male. Resulting in a hybrid that takes on the distinct flavors of the mother, with an added fruity sweetness, shorter internodal spacing and greater density in bud sites from the Wizard's Potion male. Growers can expect to increase yields with low-stress training or &#8216;topping' techniques to develop bushier plants. Indoor maturation generally occurs in 63-70 days of a flowering photoperiod",
+      "Wizard's Glue is a combination of GG #4 and our Wizard's Potion stud male. Resulting in a hybrid that takes on the distinct flavors of the mother, with an added fruity sweetness, shorter internodal spacing and greater density in bud sites from the Wizard's Potion male. Growers can expect to increase yields with low-stress training or 'topping' techniques to develop bushier plants. Indoor maturation generally occurs in 63-70 days of a flowering photoperiod",
     image:
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-glue-08.jpg",
     images: [
