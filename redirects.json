@@ -1,0 +1,272 @@
+[
+  {
+    "source": "/product/alien-rift",
+    "destination": "/genetics/alien-rift",
+    "permanent": true
+  },
+  {
+    "source": "/product/astrochimp",
+    "destination": "/genetics/astrochimp",
+    "permanent": true
+  },
+  {
+    "source": "/product/bear-mace",
+    "destination": "/genetics/bear-mace",
+    "permanent": true
+  },
+  {
+    "source": "/product/challenger-deep",
+    "destination": "/genetics/challenger-deep",
+    "permanent": true
+  },
+  {
+    "source": "/product/cthulhu",
+    "destination": "/genetics/cthulhu",
+    "permanent": true
+  },
+  {
+    "source": "/product/dark-helmet",
+    "destination": "/genetics/dark-helmet",
+    "permanent": true
+  },
+  {
+    "source": "/product/dark-plasma",
+    "destination": "/genetics/dark-plasma",
+    "permanent": true
+  },
+  {
+    "source": "/product/devils-tear",
+    "destination": "/genetics/devils-tear",
+    "permanent": true
+  },
+  {
+    "source": "/product/dough-g",
+    "destination": "/genetics/dough-g",
+    "permanent": true
+  },
+  {
+    "source": "/product/dreaded-pie",
+    "destination": "/genetics/dreaded-pie",
+    "permanent": true
+  },
+  {
+    "source": "/product/dreadnought-og",
+    "destination": "/genetics/dreadnought",
+    "permanent": true
+  },
+  {
+    "source": "/product/fader-actual",
+    "destination": "/genetics/fader-actual",
+    "permanent": true
+  },
+  {
+    "source": "/product/highlander",
+    "destination": "/genetics/highlander",
+    "permanent": true
+  },
+  {
+    "source": "/product/jawa-juice",
+    "destination": "/genetics/jawa-juice",
+    "permanent": true
+  },
+  {
+    "source": "/product/jawa-kush",
+    "destination": "/genetics/jawa-kush",
+    "permanent": true
+  },
+  {
+    "source": "/product/jawa-pie",
+    "destination": "/genetics/jawa-pie",
+    "permanent": true
+  },
+  {
+    "source": "/product/jedi-og",
+    "destination": "/genetics/jedi-og",
+    "permanent": true
+  },
+  {
+    "source": "/product/kauai-electrics",
+    "destination": "/genetics/kauai-electrics",
+    "permanent": true
+  },
+  {
+    "source": "/product/malibrew",
+    "destination": "/genetics/malibrew",
+    "permanent": true
+  },
+  {
+    "source": "/product/malibu-pie",
+    "destination": "/genetics/malibu-pie",
+    "permanent": true
+  },
+  {
+    "source": "/product/man-o-war",
+    "destination": "/genetics/man-o-war",
+    "permanent": true
+  },
+  {
+    "source": "/product/maui-wowie",
+    "destination": "/genetics/maui-wowie",
+    "permanent": true
+  },
+  {
+    "source": "/product/merlot-og",
+    "destination": "/genetics/merlot-og",
+    "permanent": true
+  },
+  {
+    "source": "/product/molten-core",
+    "destination": "/genetics/molten-core",
+    "permanent": true
+  },
+  {
+    "source": "/product/obiwan-og",
+    "destination": "/genetics/obi-wan-og",
+    "permanent": true
+  },
+  {
+    "source": "/product/shockwave",
+    "destination": "/genetics/shockwave",
+    "permanent": true
+  },
+  {
+    "source": "/product/skunkbeard",
+    "destination": "/genetics/skunkbeard",
+    "permanent": true
+  },
+  {
+    "source": "/product/sleeping-dog",
+    "destination": "/genetics/sleeping-dog",
+    "permanent": true
+  },
+  {
+    "source": "/product/solar-sugar",
+    "destination": "/genetics/solar-sugar",
+    "permanent": true
+  },
+  {
+    "source": "/product/sticky-shrimp",
+    "destination": "/genetics/sticky-shrimp",
+    "permanent": true
+  },
+  {
+    "source": "/product/swashbuckler",
+    "destination": "/genetics/swashbuckler",
+    "permanent": true
+  },
+  {
+    "source": "/product/tahoe-abduction",
+    "destination": "/genetics/tahoe-abduction",
+    "permanent": true
+  },
+  {
+    "source": "/product/thunderfury",
+    "destination": "/genetics/thunderfury",
+    "permanent": true
+  },
+  {
+    "source": "/product/tropic-lightning",
+    "destination": "/genetics/tropic-lightning",
+    "permanent": true
+  },
+  {
+    "source": "/product/tropic-moon",
+    "destination": "/genetics/tropic-moon",
+    "permanent": true
+  },
+  {
+    "source": "/product/vader-og",
+    "destination": "/genetics/vader-og",
+    "permanent": true
+  },
+  {
+    "source": "/product/vaders-vintage",
+    "destination": "/genetics/vaders-vintage",
+    "permanent": true
+  },
+  {
+    "source": "/product/viking-pie",
+    "destination": "/genetics/viking-pie",
+    "permanent": true
+  },
+  {
+    "source": "/product/witches-brew",
+    "destination": "/genetics/witches-brew",
+    "permanent": true
+  },
+  {
+    "source": "/product/witch-hunt",
+    "destination": "/genetics/witch-hunt",
+    "permanent": true
+  },
+  {
+    "source": "/product/wizards-glue",
+    "destination": "/genetics/wizards-glue",
+    "permanent": true
+  },
+  {
+    "source": "/product/wizards-potion",
+    "destination": "/genetics/wizards-potion",
+    "permanent": true
+  },
+  {
+    "source": "/product/wolf-mother",
+    "destination": "/genetics/wolf-mother",
+    "permanent": true
+  },
+  {
+    "source": "/product/yoda-soda",
+    "destination": "/genetics/yoda-soda",
+    "permanent": true
+  },
+  {
+    "source": "/product/zenfandel-og",
+    "destination": "/genetics/zenfandel-og",
+    "permanent": true
+  },
+  {
+    "source": "/shop",
+    "destination": "/genetics",
+    "permanent": true
+  },
+  {
+    "source": "/product-category",
+    "destination": "/genetics",
+    "permanent": true
+  },
+  {
+    "source": "/product-category/:path*",
+    "destination": "/genetics",
+    "permanent": true
+  },
+  {
+    "source": "/product-tag/:path*",
+    "destination": "/genetics",
+    "permanent": true
+  },
+  {
+    "source": "/about-us",
+    "destination": "/about",
+    "permanent": true
+  },
+  {
+    "source": "/contact",
+    "destination": "/about",
+    "permanent": true
+  },
+  {
+    "source": "/contact-us",
+    "destination": "/about",
+    "permanent": true
+  },
+  {
+    "source": "/faq",
+    "destination": "/about",
+    "permanent": true
+  },
+  {
+    "source": "/home",
+    "destination": "/",
+    "permanent": true
+  }
+]

@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
+import { readFileSync } from 'fs';
+
+const redirectsList = JSON.parse(readFileSync('./redirects.json', 'utf8'));
+
 const nextConfig = {
     images: {
         remotePatterns: [
@@ -22,6 +26,9 @@ const nextConfig = {
             }
         ],
     },
+    async redirects() {
+        return redirectsList;
+    }
 };
 
 export default nextConfig;
