@@ -16,7 +16,7 @@ export default function Home() {
   };
 
   const featuredStrains = STRAIN_DB.filter(s => 
-    ['alien-rift', 'vader-og', 'jawa-pie', 'obi-wan-og', 'dark-plasma', 'dreadnought'].includes(s.slug)
+    ['vader-og', 'alien-rift', 'maui-wowie', 'dark-plasma', 'jawa-pie', 'witches-brew'].includes(s.slug)
   );
 
   const featuredVideos = VIDEO_DB.slice(0, 3);
@@ -60,12 +60,12 @@ export default function Home() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-[1.05] text-foreground">
-              Precision <br/>
+              Ocean Grown <br/>
               <span className="text-primary">Genetics.</span>
             </h1>
 
             <p className="text-base md:text-lg text-lab-text mb-10 max-w-lg leading-relaxed">
-              Highly hybridized, artisan-crafted cannabis genetics. Cultivated with strict laboratory standards to ensure optimal phenotypic expression and stability.
+              Highly hybridized, artisan-crafted cannabis genetics from Ocean Grown Seeds. Cultivated with strict laboratory standards to ensure optimal phenotypic expression and stability.
             </p>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">

@@ -43,6 +43,15 @@ export default function About() {
           <p>
             From the development of our flagship stud, Alien Rift, to the stabilization of legendary lineages like Vader OG and Jawa Pie, our focus remains on providing cultivators—from the home medical tent to commercial canopies—with genetics that produce profound resin, unmatched organoleptic profiles, and true therapeutic relief.
           </p>
+          
+          <h2 className="text-2xl font-bold mt-12 mb-4">Procuring Our Genetics</h2>
+          <p>
+            For cultivators looking to acquire Ocean Grown Seeds genetics, including our highly sought-after <strong>Maui Wowie</strong>, <strong>Vader OG</strong>, and <strong>Alien Rift</strong>, we have historically worked with authorized vendors to ensure authenticity.
+          </p>
+          <p>
+            Please note that there are many imitations in the market. To guarantee you are receiving verified Ocean Grown Genetics, always source from authorized seed banks such as <strong>Lumberjack Seeds</strong> (Lumberjack Seed Source). Accept no substitutes.
+          </p>
+
           <div className="mt-12 p-6 bg-topo border border-lab-border rounded-xl">
              <p className="font-mono text-sm text-lab-text mb-0">
                &quot;Just a Cosmic Astronaut piloting my way through the Cannabis Universe.&quot;<br/>

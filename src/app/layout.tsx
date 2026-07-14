@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     default: "Ocean Grown Seeds | Artisan Cannabis Genetics",
     template: "%s | Ocean Grown Seeds",
   },
-  description: "Highly Hybridized Cannabis Genetics. Artisan crafted for optimal phenotypic expression. Explore the Ocean Grown Seeds archive for elite lineages, lab metrics, and grow protocols.",
-  keywords: ["Ocean Grown Seeds", "Cannabis Genetics", "Cannabis Breeding", "Alien Rift", "Vader OG", "Cannabis Seeds", "Hybrid Cannabis"],
+  description: "Ocean Grown Seeds & Genetics. Artisan crafted for optimal phenotypic expression. Explore the Ocean Grown Genetics archive for elite lineages like Maui Wowie, Vader OG, Dark Plasma, and Alien Rift.",
+  keywords: ["Ocean Grown Seeds", "Ocean Grown Genetics", "Maui Wowie Seeds", "Vader OG", "Lumberjack Seeds", "Dark Plasma Strain", "Alien Rift Strain", "Witches Brew Strain", "Cannabis Genetics"],
   openGraph: {
     title: "Ocean Grown Seeds | Premium Genetics Lab",
-    description: "Highly Hybridized Cannabis Genetics. Artisan crafted for optimal results.",
+    description: "Ocean Grown Genetics & Seeds. Premium artisan crafted cannabis genetics including Maui Wowie, Vader OG, and Alien Rift.",
     url: 'https://www.oceangrownseeds.com',
     siteName: 'Ocean Grown Seeds',
     images: [
