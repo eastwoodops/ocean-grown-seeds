@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Space_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 import Footer from "@/components/Footer";
 import AgeGate from "@/components/AgeGate";
 
@@ -68,6 +69,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${spaceMono.variable} font-sans antialiased text-foreground bg-background`}>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-YB0NNE62JG" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-YB0NNE62JG');
+          `}
+        </Script>
+
         <AgeGate />
         {children}
         <Footer />
