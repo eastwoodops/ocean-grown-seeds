@@ -37,9 +37,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Jawa Pie is a unique blend of CookieFam’s Key Lime Pie and our stud Alien Rift male. This strain grows vigorously in vegetative phases; low stress training techniques are encouraged. Phenotypes will generally exhibit tight node spacing and exceptional glandular production in lower. In the final stages of maturation, growers should expect to provide support for the crop. Growers can expect dense and gassy frost-drenched flowers with a classic earthy aroma.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/JAWAPIE-1-web.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/JAWAPIE-1-web.jpg",
     ],
     breeder: "Vader",
   },
@@ -60,11 +60,11 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Vader OG is an expression of the most dominant traits found in OG Kush legacy cuts. With an initial development date of 2006, this release is the culmination of several generations of phenotypic selection. Expect large yields of spicy, piney flowers with an extremely kushy & hashy flavor profile. Training is highly recommended in cultivation.  ",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Vader-OG-3-web.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Vader-OG-3-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Vader-OG-1.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Vader-OG-2-web.jpg",
     ],
     stretch: "50-60%",
     breeder: "Vader",
@@ -86,11 +86,11 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Alien Rift is an ‘enhanced’ Alien Abduction phenotype, specifically selected and back-crossed for increased hash production. Growers can expect to crop pungent ‘lemon and spice’ flowers densely covered in trichomes with an array of finishing colors. Yields are increased with topping and extra vegetative time. We generally look for phenotypes that stack tight nodes and flower quickly.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/alien-rift-web.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/alien-rift-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Aliens-4.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Aliens-5-2.jpg",
     ],
     stretch: "50-70%",
     breeder: "Vader OG",
@@ -112,7 +112,7 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Obi Wan OG Kush is a cross between our Alien Rift stud male and the clone-only Ghost OG mother. Growers can expect a medium to high yielding plant with tight, dense nodes resulting in thick, resin-coated kolas. Obi Wan OG Kush has a pungent lemon and fuel aroma with hints of pine.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/obiwan-og-300x300.jpg",
     stretch: "50-60%",
     breeder: "Vader",
   },
@@ -133,12 +133,12 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Dark plasma combines Forum Girl Scout Cookies and Obi Wan OG Kush in a new release for 2016. Growers can expect colorful flowers with higher than average trichome production and the sweet smells of cookies and fuel, reminiscent of transmission fluid. Dark plasma tends to reach maturity after eight weeks of a flowering photoperiod.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/dark-plasma-2.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/dark-plasma-2.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/dark-plasma-1.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/dark-plasma-3.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/dark-plasma-4.jpg",
     ],
     stretch: "60%",
     breeder: "Vader",
@@ -160,9 +160,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Dreadnought OG is a combination of our Fader Actual (Vader OG X3) and ObiWan OG breeding lines. The lineage is composed of classic OG flavors, ranging from earth to fuel with fruitful undertones. The breeder's preferred profile deviates from traditional OG expressions and presents as distinctly lime. Dreadnought OG encourages heavy relaxation while stimulating the mind. Growers can expect to harvest dense trichome-rich flowers on a 10-week photoperiod schedule with proper feeding and care.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/12/dreadnought-web.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/12/dreadnought-web.jpg",
     ],
     stretch: "55-75%",
     breeder: "Vader OG",
@@ -184,11 +184,11 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Vintage sour pine and earthy notes with hints of sweet citrus and sour apple are expressed in this combination of select cultivars. Growers can expect dense flowers with colorful foliage at harvest. Low stress training techniques are highly recommended to reduce stretch during flower initiation.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/06/yoda-soda-web.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/06/yoda-soda-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/06/yoda-soda-web-02.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/06/yoda-soda-web-03.jpg",
     ],
     stretch: "75%+",
     breeder: "Vader OG",
@@ -210,10 +210,10 @@ export const STRAIN_DB: Strain[] = [
     description:
       "True to the namesake, Bear Mace offers a distinct blend of floral aromas with sharp herbal undertones. Hints of marigold and calendula are contrasted with the sting of fresh green peppers and the potency of the Hulk, resulting in a unique flavor profile with hard-hitting effects. Growers can expect to see variation in phenotypic expression and growth habit with this generational derivative. Don’t mace yourself. Check wind conditions prior to use.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/12/bear-mace-web.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/12/bear-mace-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/12/bear-mace-2-web.jpg",
     ],
     stretch: "55-65%",
     breeder: "Shrimp",
@@ -235,9 +235,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "With lineage derived from the legendary ‘Mendo Purps’ of the Emerald Triangle region, Purple Urkle is a well-known hybrid with roots dating back to the early 1990s. Known for an ideal growth habit and visually stunning harvests, Purple Urkle passes along a set of traits that promote indoor or stealth cultivation and thrives in temperate growing environments.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/06/jawa-juice-web-01.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/06/jawa-juice-web-01.jpg",
     ],
     stretch: "35%",
   },
@@ -258,10 +258,10 @@ export const STRAIN_DB: Strain[] = [
     description:
       "A preservation project, by Vader OG, with seeds native to the island of Kauai, specifically near the Powerline Trail. Using the rare seed stock, he allowed multiple females to be pollinated with the most robust males of the lot.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2020/02/kauai-electrics-vdr-01.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2020/02/kauai-electrics-vdr-01.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2020/02/kauai-electrics-vdr-02.jpg",
     ],
     stretch: "80-90%",
     breeder: "Vader OG",
@@ -283,10 +283,10 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Maui Wowie is a well-known strain native to the island of Maui in Hawaii. This seed stock is the result of a genetic preservation project by Vader OG and expresses full kolas with heavy tropical aromas. Growers can expect significant stretch in flower, as is common with traditional Sativa varieties.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2020/03/maui-wowie-02-1.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2020/03/maui-wowie-02-1.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2020/03/maui-wowie-01-1.jpg",
     ],
     stretch: "80-90%",
     breeder: "Vader OG",
@@ -308,12 +308,12 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Molten core is a cross between selected cultivars of Ringo's Gift and Shockwave. The result is a pungent citrus profile with undertones ranging from cherry cough syrup to burnt rubber. The breeder's preferred phenotype expresses a cherry cough syrup aroma and elevated CBD ratios. Growers can expect tall, dense colas covered in trichomes. Phenotypes may express purple shades as they reach maturity. A full 10 week flower cycle is recommended for optimal CBD production. Topping early in veg will encourage lateral growth, providing an even canopy. Alternatively, left untopped, expect vigorous vertical growth",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/molten-core-web-02.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/molten-core-web-02.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/molten-core-web-03.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/molten-core-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/molten-core-web-01.jpg",
     ],
     stretch: "65%",
     breeder: "Dawgo",
@@ -335,9 +335,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Lineage: (Jawa Pie #3 x Obiwan OG Kush) Breeder: Vader OG Flowering time: 63-70 Days Yield: Moderate to Heavy Stretch: 50-70%",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/03/solar-sugar-sq.png",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/03/solar-sugar-sq.png",
     ],
     stretch: "50-70%",
     breeder: "Vader OG",
@@ -359,9 +359,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Viking Pie presents growers with a sweet OG gas flavor, leaning towards the sweetness of the sugar cookie Jawa Pie with an extra kick of that traditional OG fuel from the Vader OG parent. Well-cultivated flowers are potent, dense and colorful.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/02/viking-pie.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2021/02/viking-pie.jpg",
     ],
   },
   {
@@ -381,10 +381,10 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Dark Helmet is the result of a special project, locking down the unique traits and flavor profile of Forum Girl Scout Cookies into seed form by back-crossing the clone only cut to our Jawa Pie ( Key Lime Pie x Alien rift ) frost male. Key Lime Pie is a clone-only 'sister' phenotype or cultivar of the Girl Scout Cookies lineage. Growers can expect very dense and frosty bud sites with a limey, sugar cookie terpene profile.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Dark-Helmet-2.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Dark-Helmet-2.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Dark-Helmet-3.jpg",
     ],
     stretch: "60%",
     breeder: "Vader OG",
@@ -406,9 +406,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "The initial release of Dough G is an F1 generation of the Forum Girl Scout Cookies crossed with our Vader OG Male. The result is a potent and gassy og-dominant hybrid with a funky, rotten dough on the back end of the palette. Training is encouraged to reduce stretch in flower and increase overall yield.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/dough-g-01.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/dough-g-01.jpg",
     ],
     stretch: "50-70%",
     breeder: "Vader",
@@ -430,9 +430,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Dreaded Pie is one of our newest hybrid cultivars from Summer of 2025, a cross between Dreadnought OG and our updated Jawa Pie male selection. Our favorite phenos leaned into a heavy Orange Cream with a noticeable Gas past the sweetness. Growers should expect healthy vigorous, mid to large structures and stretching. Mid to large flower clusters that benefit from topping and canopy widening for best yields.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2025/10/Dreaded-Pie-1.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2025/10/Dreaded-Pie-1.jpg",
     ],
     stretch: "50-60%",
     breeder: "Vader OG",
@@ -454,9 +454,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Fader actual is an enhanced Vader OG hybrid that refines the classical ‘Ocean Grown Kush’ flavors expressed in this lineage. Growers can expect dense and gassy frost-drenched flowers with a classic earthy aroma. The initial release of Vader OG occurred in 2008, after 10+ years of successive hybridization, the progeny of this generation are consistent in growth structure and flavor profiles.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/11/fader-actual-1-web.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/11/fader-actual-1-web.jpg",
     ],
     stretch: "60%",
     breeder: "Vader",
@@ -478,9 +478,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Highlander is the reintroduction of our legacy strain ‘Witches Brew’ (Zenfandel OG x Merlot OG). This cross features floral aromas with hints of green tea and cream. growers can expect chunky flowers and vigorous growth from this Hybrid. Highlander can perform very well outdoors Growers can expect dense and gassy frost-drenched flowers with a classic earthy aroma.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/highlander-web-01.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/highlander-web-01.jpg",
     ],
     stretch: "60%",
     breeder: "Vader",
@@ -502,9 +502,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Jawa Kush combines the infamous Ghost OG with the delightful flavors of Jawa Pie. This cross yields highly desirable flavor profiles reminiscent of a ‘sugar cake’ with subtle notes of lemon gas. Growers can expect large, frosty kolas when grown in ideal conditions.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/jawa-kush-2.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/jawa-kush-2.jpg",
     ],
     stretch: "60%",
     breeder: "Vader",
@@ -526,11 +526,11 @@ export const STRAIN_DB: Strain[] = [
     description:
       "AstroChimp combines GG #4 with our Alien Rift #6 stud male resulting in a robust new flavor profile. While vegetative plants tend to remain stout, a significant stretch has been noted in flower, resulting in finishing plants that require branch support. Growers can expect stacked branches wrapped in colorful frosted kolas with a strong citrus, 'glue' smell that hints at pineapple",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/astrochimp-shrimp-05.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/astrochimp-shrimp-05.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/astrochimp-shrimp-01-1.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/astrochimp-shrimp-07.jpg",
     ],
     stretch: "Significant",
     breeder: "Shrimp",
@@ -552,11 +552,11 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Challenger Deep dives back into one of the Ocean Grown legacy hybrids to bring back the ideal traits from Star Destroyer OG, specifically trichome coverage and citrus flavors & aromas - paired with the vigor and growth structure from the Wizard’s Glue male. The result is an attractive hybrid that expresses a range of sweet orange citrus aromas combined with dense, greasy golf ball-like flowers adorned with orange pistils.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/challenger-deep-02-web.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/challenger-deep-02-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/challenger-deep-04-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/challenger-deep-07-web.jpg",
     ],
     stretch: "65%",
     breeder: "Shrimp",
@@ -578,10 +578,10 @@ export const STRAIN_DB: Strain[] = [
     description:
       "We pollinated our Alien Rift 'Bro-Side' female specimen with the Wizard's Glue F1 male stud to create this unruly beast. Growers can expect to see early frost on fan leaves with dense trichome coverage at bud-sites. Aromas range from burnt rubber fumes to sharp lemon pinesol. Expect a hungry vegetative phase with significant stretch in flower. Topping and low-stress training techniques such as using super-cropping and trellising are recommended. When the stars have come right for the Great Old Ones, \"some force from outside must serve to liberate their bodies. The spells that preserved Them intact likewise prevented them from making an initial move. Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/cthulhu-flush-01.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/cthulhu-flush-01.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/cthulhu-flush-03.jpg",
     ],
     stretch: "Significant",
   },
@@ -602,9 +602,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "This strain has been specifically developed to try and bring the hybrid qualities of the Angel Tear back toward the more indica dominant qualities of the Merlot. This is going to be a great strain for those looking for a pain relief that wont make you inoperable. Devils Tear is a medium sized stretcher, Expect dense frosty nuggs with aroma leaning toward the sweeter side of sour",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Devils-Tear.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Devils-Tear.jpg",
     ],
     stretch: "Medium",
     breeder: "Vader",
@@ -626,9 +626,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Jedi OG is a sister to Vader OG, favored and chosen by one of the original ocean grown founders, Bubblefett. This hybrid is less ‘spicy’ and more fuel-like in flavor and aromatic expressions. Jedi OG also bolsters increased yields over a majority of legacy OG Kush cuts, while maintaining the og-dominant flower structure as well as the strong effects expected with Ocean Grown Kush Growers can expect dense and gassy frost-drenched flowers with a classic earthy aroma.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/jedi-og-web-01.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/jedi-og-web-01.jpg",
     ],
     stretch: "60-70%",
     breeder: "Vader",
@@ -650,9 +650,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Malibrew crosses our ‘Highlander’ cut of Witches Brew with our selected Malibu Pie male. Flowers are sweet & sugary with floral melon citrus flavors and dense, frosty nugs.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/malibrew-01.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/malibrew-01.jpg",
     ],
     stretch: "60-70%",
     breeder: "Vader",
@@ -674,9 +674,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "In trials of the breeder’s (F1) generation of Jawa Pie, Vader discovered a special cultivar dubbed ‘Malibu.’ this selected phenotype expressed sweet, pineapple Hawaiian punch flavors and extremely high resin production. This seed stock is a result of the clone only Malibu crossed to our stud Jawa Pie male. Growers can expect very dense, colorful flowers that are packed with trichomes",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/malibu-pie-web-01.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/malibu-pie-web-01.jpg",
     ],
     stretch: "60%",
     breeder: "Vader",
@@ -698,9 +698,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Man o War is a cross between the highly sought after Bruce Banner #3 clone-only female from Dark Horse Genetics crossed with our Alien Rift #6 stud male, resulting in a vigorous hybrid that brings out the most ideal traits of both parents. Growers can expect frosty flowers with a sweet odor that hints at a combination of berries and citrus",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/mow-4-web.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/mow-4-web.jpg",
     ],
     stretch: "50-60%",
     breeder: "Shrimp",
@@ -722,9 +722,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "The Merlot always shows a very vigorous growth pattern and held up to absorbing plenty of nutrients. This can be an extremely branchy strain and phenos can be expected to bush out almost uniformly without any topping. Plants that were topped sprouted twice as many nods and flourished higher yields. Growers should expect lots of golf ball and hand grenade nugs across their canopy. Often Due to its weak branches, tying up branches may be required fairly early into flowering and scrogging is highly recommended. Expect deep purple with cool temps and a fairly easy trim job once you make it past the larger fan leaves. With an extremely high resin output this has quickly become one of my new favorite strains for the garden.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Merlot.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Merlot.jpg",
     ],
     stretch: "Vigorous",
     breeder: "Vader",
@@ -746,9 +746,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Shockwave is a cross between Shark Shock and our Alien Rift male. Most phenotypes exhibit floral berry odors with a hint of your old sweaty gym bag. Vigorous vertical growth if left un-topped; low-stress training techniques are encouraged to supplement yields. Flowers will reach maturity from 7 - 8.5 weeks, with most phenotypes finishing after 55 days. Expect greasy, frosty flowers - this is an ideal strain for extract artists and flower-lovers alike.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/11/shockwave-web-01.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/11/shockwave-web-01.jpg",
     ],
     stretch: "Vigorous vertical growth",
   },
@@ -769,10 +769,10 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Skunkbeard combines the clone only animal cookies with our alien rift #6 stud male. Growers can expect greasy, frosty flowers with a strong odor reminiscent of sweet lemon cake with a hint of rotten fruit. Training is recommended in flower to mitigate stretch and encourage flower sites.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/skunkbeard-03-web.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/skunkbeard-03-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/skunkbeard-04-web.jpg",
     ],
     stretch: "65%",
     breeder: "Shrimp",
@@ -794,9 +794,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "With a mix from our Merlot Male growers can expect a sweet debilitating effect. From early tests we have been seeing a wonderful sleep time medicine. Strongest pheno's have been perfect for insomnia patients and we are looking forward to continuing this line in the future.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/sleeping-dog.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/sleeping-dog.jpg",
     ],
     breeder: "Vader",
   },
@@ -817,9 +817,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "A classic Ocean Grown hybrid: STICKY SHRIMP. Detailed phenotype data pending.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/sticky-shrimp-01.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/sticky-shrimp-01.jpg",
     ],
     breeder: "Shrimp",
   },
@@ -840,13 +840,13 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Swashbuckler is an attractive hybrid between the clone only Forum GSC and Alien Rift selected male. The line has been worked to increase flower density and the distinct lemon-pledge aromas while maintaining high vigor and a bushier growth structure. Phenotypes can finish in as little as 8 weeks: fan leaves have a tendency to turn dark purple in late flower stages, resulting in a beautiful finishing fade when fed properly. Topping in vegetative stages is encouraged to promote higher yields and canopy management.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/swashbuckler-08.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/swashbuckler-08.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/swashbuckler-07.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/swashbuckler-09.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/swashbuckler-10.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/swashbuckler-11.jpg",
     ],
     stretch: "60-70%",
     breeder: "Shrimp",
@@ -868,9 +868,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Thunderfury is a cross between hand-selected cultivars of Tropic Lightning and Shockwave. The selected phenotype of Tropic Lightning has a very distinct sweet bile odor, nicknamed “Candy Vomit”, while the Shockwave cultivar was selected for it’s very strong menthol profile and hardy structure. The result is a cross that yields heavily sweet aromas, resembling creamy strawberry yogurt. Most cultivars tend to produce more uplifting effects while still providing an adequate body high to round out the experience. Growers can expect dense colas and vigorous growth in flower. Topping early and often will provide significant lateral branching and growth.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/thunderfury-web.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/thunderfury-web.jpg",
     ],
     stretch: "55-65%",
     breeder: "Dawgo",
@@ -892,11 +892,11 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Tropic lightning is cross between Malibu Pie and our stud Obi Wan OG Kush male. The result is a pungent, gassy profile with sharp aromas ranging from berry soda to a candy lemon funk. Vader described his keeper cut as ‘candy vomit.’ Sticky, greasy kolas with unique flavors make this hybrid a great addition to the connoisseur’s garden. Growers can expect dense and gassy frost-drenched flowers with a classic earthy aroma.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Lightning-9.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Lightning-9.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Lightning-7.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Lightning-1a.jpg",
     ],
     stretch: "60%",
     breeder: "Vader",
@@ -918,15 +918,15 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Tropic Moon combines our 'Malibu' (F1 Cultivar) with the second generation Vader OG stud male. The result is a potent cross that yields dense flower sites packed with trichomes. The combination of the Malibu and Vader OG results in a flavor profile reminiscent of pina colada and sweet alcoholic lime 'fumes' with a hint of margarita.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/tropic-moon-03.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/tropic-moon-03.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-3-edit-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-4-edit-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-5-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-6-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-7-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-8-web.jpg",
     ],
     stretch: "Vigorous",
     breeder: "Vader",
@@ -948,9 +948,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Vader’s Vintage is a cross between Merlot OG and our Vader OG male resulting in a vigorous hybrid with unique expressions of wine-like flavors. Merlot OG’s deep lineage includes Larry OG, SFV OG, Grape Ape and the infamous Blackberry Rhino. Hints of these varieties combine to bring an aromatic profile reminiscent of distilled plum and grape-infused oak.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/11/vaders-vintage-1-web.png",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/11/vaders-vintage-1-web.png",
     ],
     breeder: "Vader",
   },
@@ -971,12 +971,12 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Wizard's Glue is a combination of GG #4 and our Wizard's Potion stud male. Resulting in a hybrid that takes on the distinct flavors of the mother, with an added fruity sweetness, shorter internodal spacing and greater density in bud sites from the Wizard's Potion male. Growers can expect to increase yields with low-stress training or 'topping' techniques to develop bushier plants. Indoor maturation generally occurs in 63-70 days of a flowering photoperiod",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-glue-08.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-glue-08.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-glue-11.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-glue-12.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-glue-09.jpg",
     ],
     stretch: "50-60%",
     breeder: "Shrimp",
@@ -998,12 +998,12 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Wolf Mother is a potent hybrid with lineage inclusive of our Witches Brew ‘Highlander’ phenotype crossed to our selected Skunkbeard (Animal Cookies x Alien Rift) male.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wolf-mother-02.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wolf-mother-02.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wolf-mother-04.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wolf-mother-03.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wolf-mother-01.jpg",
     ],
   },
   {
@@ -1023,9 +1023,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Tahoe Abduction has proven to be a popular cross, based off the Tahoe OG (clone only) and the Alien Abduction. Here we have bred the Alien series back toward its OG dominant traits for high medical grade effects for muscle and join relaxation. This strain shows strong structure and many sour phenotypes. This strain has proven to be a popular strain among those in need of strains with large trichome production for concentrates.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/tahoe-abduction.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/tahoe-abduction.jpg",
     ],
     stretch: "70%",
     breeder: "Vader",
@@ -1047,9 +1047,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "This is a direct cross project between a Zenfandel Female and our frosty Merlot male. Here we are focusing on breeding toward a heavy relaxation hybrid. Expect intense Sour and pine scents, and fast growth.  ",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/witches-brew.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/witches-brew.jpg",
     ],
     breeder: "Vader",
   },
@@ -1070,9 +1070,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       'This is a 5x Multi cross project Between a Tahoe OG, SVF OG, Wizards Potion, Zenfandel and our frosty Merlot male. Here we are focusing on breeding toward a heavy Indica with extended effect time. Expect intense Salty Sour scents boarding a sage fueled taste, fast growth and spatial-noding amongst most progeny. This strain was developed for its medical qualities to battle anxiety and a great choice for those looking for a calming effect. Expect heavier phenos to "put you in the couch" and not recommended for those operating heavy equipment. Support for branches will most likely be required through the use of screens or tying up flowers toward the end of the cycle.',
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Witch-Hunt.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Witch-Hunt.jpg",
     ],
     stretch: "70%",
     breeder: "Vader OG",
@@ -1094,10 +1094,10 @@ export const STRAIN_DB: Strain[] = [
     description:
       "With Lineage developed from a cross of Widow G13 and SFV OG we have manage to stabilize a nice Indica heavy hybrid breed. Although Sativa undertones keep you from passing out completely this strain will bring heavy muscle relaxation with most phenotypes. Phenos exhibiting dense flower traits with a sour sweet scent are generally preferred",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-potion-web.jpg",
     images: [
-      "/logo-black.png",
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-potion-web.jpg",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-potion-2.jpg",
     ],
     breeder: "Vader",
   },
@@ -1118,9 +1118,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "This strain is very close to an original OG cut, a bit of sweetness and color can be seen in certain pheno's. Overall phenos will show explosive growth in veg and the first 3 weeks of flower.",
     image:
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Zenfandel.jpg",
     images: [
-      "/logo-black.png",
+      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Zenfandel.jpg",
     ],
     breeder: "Vader",
   },
