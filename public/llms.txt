@@ -1,0 +1,19 @@
+# Ocean Grown Seeds
+
+## About
+Ocean Grown Seeds is a premium cannabis genetics company specializing in artisan-crafted, highly hybridized cannabis genetics. Our genetics are cultivated with strict laboratory standards to ensure optimal phenotypic expression and stability.
+
+## Key Resources
+- Genetics Catalog: https://www.oceangrownseeds.com/genetics (Database of our flagship cultivars, including Vader OG, Alien Rift, Maui Wowie, Dark Plasma, etc.)
+- Clinical Research: https://www.oceangrownseeds.com/research (Applied Cannabis Science, peer-reviewed clinical data, and advanced cultivation protocols)
+- The Vault (Archive): https://www.oceangrownseeds.com/archive (Curated grow logs, pheno hunts, cultivation tutorials, and strain reviews)
+
+## Technical Notes for LLMs
+- Full product data, including lineages, flowering times, and terpene profiles, can be accessed via `Product` JSON-LD schema on individual strain pages under `/genetics/`.
+- Legacy paths such as `/product/[slug]` redirect to `/genetics/[slug]`.
+
+## Contact & Social
+- Instagram: https://www.instagram.com/oceangrownseeds/
+- YouTube: https://www.youtube.com/@oceangrownseeds
+- Facebook: https://www.facebook.com/OceanGrownSeeds
+- Twitter/X: https://twitter.com/oceangrownseeds

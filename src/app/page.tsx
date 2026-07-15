@@ -6,6 +6,21 @@ import Link from "next/link";
 import { STRAIN_DB } from "@/lib/strains";
 import { VIDEO_DB } from "@/lib/archive";
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Ocean Grown Seeds",
+  "url": "https://www.oceangrownseeds.com/",
+  "logo": "https://www.oceangrownseeds.com/logo-black.png",
+  "description": "Highly hybridized, artisan-crafted cannabis genetics from Ocean Grown Seeds. Cultivated with strict laboratory standards to ensure optimal phenotypic expression and stability.",
+  "sameAs": [
+    "https://www.instagram.com/oceangrownseeds/",
+    "https://www.youtube.com/@oceangrownseeds",
+    "https://www.facebook.com/OceanGrownSeeds",
+    "https://twitter.com/oceangrownseeds"
+  ]
+};
+
 export default function Home() {
 
   const getIcon = (category: string) => {
@@ -29,6 +44,10 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-topo relative overflow-hidden">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
       <header className="absolute top-0 w-full z-50 px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-center border-b border-lab-border bg-white/50 backdrop-blur-md gap-4 md:gap-0">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo-black.png" alt="Ocean Grown Seeds Seal" width={40} height={40} className="opacity-90" priority />
