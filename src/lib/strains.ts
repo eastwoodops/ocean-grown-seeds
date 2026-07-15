@@ -359,9 +359,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Viking Pie presents growers with a sweet OG gas flavor, leaning towards the sweetness of the sugar cookie Jawa Pie with an extra kick of that traditional OG fuel from the Vader OG parent. Well-cultivated flowers are potent, dense and colorful.",
     image:
-      "https://www.oceangrownseeds.com/wp-content/uploads/2021/02/viking-pie.jpg",
+      "/strains/viking-pie.jpg",
     images: [
-      "https://www.oceangrownseeds.com/wp-content/uploads/2021/02/viking-pie.jpg",
+      "/strains/viking-pie.jpg",
     ],
   },
   {
@@ -921,12 +921,12 @@ export const STRAIN_DB: Strain[] = [
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/tropic-moon-03.jpg",
     images: [
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/tropic-moon-03.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-3-edit-web.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-4-edit-web.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-5-web.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-6-web.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-7-web.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Moon-8-web.jpg",
+      "/strains/Tropic-Moon-3-edit-web.jpg",
+      "/strains/Tropic-Moon-4-edit-web.jpg",
+      "/strains/Tropic-Moon-5-web.jpg",
+      "/strains/Tropic-Moon-6-web.jpg",
+      "/strains/Tropic-Moon-7-web.jpg",
+      "/strains/Tropic-Moon-8-web.jpg",
     ],
     stretch: "Vigorous",
     breeder: "Vader",
@@ -948,9 +948,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Vader’s Vintage is a cross between Merlot OG and our Vader OG male resulting in a vigorous hybrid with unique expressions of wine-like flavors. Merlot OG’s deep lineage includes Larry OG, SFV OG, Grape Ape and the infamous Blackberry Rhino. Hints of these varieties combine to bring an aromatic profile reminiscent of distilled plum and grape-infused oak.",
     image:
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/11/vaders-vintage-1-web.png",
+      "/strains/vaders-vintage-1-web.png",
     images: [
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/11/vaders-vintage-1-web.png",
+      "/strains/vaders-vintage-1-web.png",
     ],
     breeder: "Vader",
   },
@@ -1070,9 +1070,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       'This is a 5x Multi cross project Between a Tahoe OG, SVF OG, Wizards Potion, Zenfandel and our frosty Merlot male. Here we are focusing on breeding toward a heavy Indica with extended effect time. Expect intense Salty Sour scents boarding a sage fueled taste, fast growth and spatial-noding amongst most progeny. This strain was developed for its medical qualities to battle anxiety and a great choice for those looking for a calming effect. Expect heavier phenos to "put you in the couch" and not recommended for those operating heavy equipment. Support for branches will most likely be required through the use of screens or tying up flowers toward the end of the cycle.',
     image:
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Witch-Hunt.jpg",
+      "/strains/Witch-Hunt.jpg",
     images: [
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Witch-Hunt.jpg",
+      "/strains/Witch-Hunt.jpg",
     ],
     stretch: "70%",
     breeder: "Vader OG",
