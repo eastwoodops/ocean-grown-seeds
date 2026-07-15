@@ -868,9 +868,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Thunderfury is a cross between hand-selected cultivars of Tropic Lightning and Shockwave. The selected phenotype of Tropic Lightning has a very distinct sweet bile odor, nicknamed “Candy Vomit”, while the Shockwave cultivar was selected for it’s very strong menthol profile and hardy structure. The result is a cross that yields heavily sweet aromas, resembling creamy strawberry yogurt. Most cultivars tend to produce more uplifting effects while still providing an adequate body high to round out the experience. Growers can expect dense colas and vigorous growth in flower. Topping early and often will provide significant lateral branching and growth.",
     image:
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/thunderfury-web.jpg",
+      "/strains/thunderfury-web.jpg",
     images: [
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/thunderfury-web.jpg",
+      "/strains/thunderfury-web.jpg",
     ],
     stretch: "55-65%",
     breeder: "Dawgo",
@@ -892,11 +892,11 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Tropic lightning is cross between Malibu Pie and our stud Obi Wan OG Kush male. The result is a pungent, gassy profile with sharp aromas ranging from berry soda to a candy lemon funk. Vader described his keeper cut as ‘candy vomit.’ Sticky, greasy kolas with unique flavors make this hybrid a great addition to the connoisseur’s garden. Growers can expect dense and gassy frost-drenched flowers with a classic earthy aroma.",
     image:
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Lightning-9.jpg",
+      "/strains/Tropic-Lightning-9.jpg",
     images: [
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Lightning-9.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Lightning-7.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Tropic-Lightning-1a.jpg",
+      "/strains/Tropic-Lightning-9.jpg",
+      "/strains/Tropic-Lightning-7.jpg",
+      "/strains/Tropic-Lightning-1a.jpg",
     ],
     stretch: "60%",
     breeder: "Vader",
