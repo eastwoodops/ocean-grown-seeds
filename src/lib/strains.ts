@@ -184,10 +184,10 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Vintage sour pine and earthy notes with hints of sweet citrus and sour apple are expressed in this combination of select cultivars. Growers can expect dense flowers with colorful foliage at harvest. Low stress training techniques are highly recommended to reduce stretch during flower initiation.",
     image:
-      "https://www.oceangrownseeds.com/wp-content/uploads/2021/06/yoda-soda-web.jpg",
+      "/strains/yoda-soda-web.jpg",
     images: [
-      "https://www.oceangrownseeds.com/wp-content/uploads/2021/06/yoda-soda-web.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2021/06/yoda-soda-web-02.jpg",
+      "/strains/yoda-soda-web.jpg",
+      "/strains/yoda-soda-web-02.jpg",
       "https://www.oceangrownseeds.com/wp-content/uploads/2021/06/yoda-soda-web-03.jpg",
     ],
     stretch: "75%+",
@@ -971,9 +971,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Wizard's Glue is a combination of GG #4 and our Wizard's Potion stud male. Resulting in a hybrid that takes on the distinct flavors of the mother, with an added fruity sweetness, shorter internodal spacing and greater density in bud sites from the Wizard's Potion male. Growers can expect to increase yields with low-stress training or 'topping' techniques to develop bushier plants. Indoor maturation generally occurs in 63-70 days of a flowering photoperiod",
     image:
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-glue-08.jpg",
+      "/strains/wizards-glue-08.jpg",
     images: [
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-glue-08.jpg",
+      "/strains/wizards-glue-08.jpg",
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-glue-11.jpg",
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-glue-12.jpg",
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-glue-09.jpg",
@@ -998,12 +998,12 @@ export const STRAIN_DB: Strain[] = [
     description:
       "Wolf Mother is a potent hybrid with lineage inclusive of our Witches Brew ‘Highlander’ phenotype crossed to our selected Skunkbeard (Animal Cookies x Alien Rift) male.",
     image:
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wolf-mother-02.jpg",
+      "/strains/wolf-mother-02.jpg",
     images: [
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wolf-mother-02.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wolf-mother-04.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wolf-mother-03.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wolf-mother-01.jpg",
+      "/strains/wolf-mother-02.jpg",
+      "/strains/wolf-mother-04.jpg",
+      "/strains/wolf-mother-03.jpg",
+      "/strains/wolf-mother-01.jpg",
     ],
   },
   {
@@ -1094,9 +1094,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "With Lineage developed from a cross of Widow G13 and SFV OG we have manage to stabilize a nice Indica heavy hybrid breed. Although Sativa undertones keep you from passing out completely this strain will bring heavy muscle relaxation with most phenotypes. Phenos exhibiting dense flower traits with a sour sweet scent are generally preferred",
     image:
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-potion-web.jpg",
+      "/strains/wizards-potion-web.jpg",
     images: [
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-potion-web.jpg",
+      "/strains/wizards-potion-web.jpg",
       "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/wizards-potion-2.jpg",
     ],
     breeder: "Vader",
