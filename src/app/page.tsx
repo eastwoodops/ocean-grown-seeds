@@ -106,7 +106,7 @@ export default function Home() {
             className="relative h-[400px] md:h-[600px] w-full rounded-2xl bg-lab-bg border border-lab-border shadow-2xl flex flex-col justify-between p-4 md:p-8 overflow-hidden"
           >
             <div className="absolute inset-0 z-0 opacity-80 mix-blend-normal">
-              <video autoPlay loop muted playsInline className="w-full h-full object-cover">
+              <video autoPlay loop muted playsInline poster="/hero-poster.jpg" className="w-full h-full object-cover">
                 <source src="/hero-video.mp4" type="video/mp4" />
               </video>
               <div className="absolute inset-0 bg-gradient-to-t from-lab-bg via-transparent to-lab-bg/50 mix-blend-hard-light" />

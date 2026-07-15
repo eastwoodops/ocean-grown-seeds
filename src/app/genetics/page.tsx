@@ -24,8 +24,43 @@ export default function Genetics() {
     });
   }, [searchQuery, activeFilter]);
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are Ocean Grown Seeds regular or feminized?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All cannabis seeds from Ocean Grown Seeds are regular seeds. We focus on natural hybridization and stability to ensure optimal phenotypic expression."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where can I buy Ocean Grown Seeds?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ocean Grown Seeds does not sell directly to consumers. You can acquire our genetics exclusively through our authorized distributor, Lumberjack Seeds (https://lumberjackseedsource.com)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does Ocean Grown Seeds specialize in?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ocean Grown Seeds is an artisan breeder specializing in highly hybridized, stable cannabis genetics, with a strong focus on legacy OG cuts and high resin production."
+        }
+      }
+    ]
+  };
+
   return (
     <main className="min-h-screen bg-background relative overflow-hidden pb-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {/* HEADER */}
       <header className="sticky top-0 w-full z-50 px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-center border-b border-lab-border bg-white/80 backdrop-blur-md gap-4 md:gap-0">
         <Link href="/" className="flex items-center gap-3">
