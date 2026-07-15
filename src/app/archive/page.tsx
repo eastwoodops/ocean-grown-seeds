@@ -37,6 +37,31 @@ export default function ArchiveIndex() {
 
   return (
     <main className="min-h-screen bg-background relative pb-24">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            VIDEO_DB.map(v => ({
+              "@context": "https://schema.org",
+              "@type": "VideoObject",
+              "name": v.title,
+              "description": v.description || v.title,
+              "thumbnailUrl": `https://img.youtube.com/vi/${v.youtubeId}/maxresdefault.jpg`,
+              "uploadDate": "2023-01-01", // Approximate fallback if no date
+              "embedUrl": `https://www.youtube.com/embed/${v.youtubeId}`,
+              "publisher": {
+                "@type": "Organization",
+                "name": "Ocean Grown Seeds",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.oceangrownseeds.com/logo-black.png"
+                }
+              }
+            }))
+          )
+        }}
+      />
       <header className="sticky top-0 w-full z-50 px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-center border-b border-lab-border bg-white/80 backdrop-blur-md gap-4 md:gap-0">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo-black.png" alt="Ocean Grown Seeds Seal" width={40} height={40} className="opacity-90" priority />

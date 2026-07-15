@@ -6,6 +6,33 @@ import Image from 'next/image';
 export default function Article() {
   return (
     <main className="min-h-screen bg-background relative pb-24">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Beyond THC: The Therapeutic Potential of Minor Cannabinoids",
+  "description": "Analyzing the biosynthetic pathways and physiological effects of CBG, CBN, and THCV.",
+  "author": {
+    "@type": "Organization",
+    "name": "Ocean Grown Seeds",
+    "url": "https://www.oceangrownseeds.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ocean Grown Seeds",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.oceangrownseeds.com/logo-black.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.oceangrownseeds.com/research/minor-cannabinoids-cbg-cbn-thcv"
+  }
+}) }}
+      />
       <header className="sticky top-0 w-full z-50 px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-center border-b border-lab-border bg-white/80 backdrop-blur-md gap-4 md:gap-0">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo-black.png" alt="Seal" width={40} height={40} className="opacity-90" priority />

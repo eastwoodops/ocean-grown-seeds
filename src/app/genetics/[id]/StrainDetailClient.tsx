@@ -175,7 +175,27 @@ export default function StrainDetailClient({ strain, relatedVideo }: { strain: S
             <dl className="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10">
               <div>
                 <dt className="font-mono text-[10px] uppercase text-lab-text mb-1">Primary Terpenes</dt>
-                <dd className="font-bold m-0">{strain.terpenes}</dd>
+                <dd className="font-bold m-0">
+                  {strain.terpenes.split(', ').map((terpene, index, array) => {
+                    let link = null;
+                    if (terpene.toLowerCase() === 'myrcene') link = '/research/clinical-efficacy-myrcene';
+                    if (terpene.toLowerCase() === 'limonene') link = '/research/limonene-anxiolytic-properties';
+                    if (terpene.toLowerCase() === 'caryophyllene') link = '/research/caryophyllene-dietary-cannabinoid';
+                    
+                    return (
+                      <span key={index}>
+                        {link ? (
+                          <Link href={link} className="hover:text-accent underline underline-offset-4 decoration-accent/50 transition-colors">
+                            {terpene}
+                          </Link>
+                        ) : (
+                          terpene
+                        )}
+                        {index < array.length - 1 ? ', ' : ''}
+                      </span>
+                    );
+                  })}
+                </dd>
               </div>
               <div>
                 <dt className="font-mono text-[10px] uppercase text-lab-text mb-1">Aroma & Flavor</dt>
