@@ -188,7 +188,7 @@ export const STRAIN_DB: Strain[] = [
     images: [
       "/strains/yoda-soda-web.jpg",
       "/strains/yoda-soda-web-02.jpg",
-      "https://www.oceangrownseeds.com/wp-content/uploads/2021/06/yoda-soda-web-03.jpg",
+      "/strains/yoda-soda-web-03.jpg",
     ],
     stretch: "75%+",
     breeder: "Vader OG",
@@ -1118,9 +1118,9 @@ export const STRAIN_DB: Strain[] = [
     description:
       "This strain is very close to an original OG cut, a bit of sweetness and color can be seen in certain pheno's. Overall phenos will show explosive growth in veg and the first 3 weeks of flower.",
     image:
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Zenfandel.jpg",
+      "/strains/Zenfandel.jpg",
     images: [
-      "https://www.oceangrownseeds.com/wp-content/uploads/2019/10/Zenfandel.jpg",
+      "/strains/Zenfandel.jpg",
     ],
     breeder: "Vader",
   },
